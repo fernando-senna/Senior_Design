@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.1)  7 OCT 2015 14:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.1)  7 OCT 2015 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,13 +749,8 @@ l.1 ...n project also called \‚ÄúSenior Design\‚Äù
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) (./tex/related_work.tex
-
-LaTeX Warning: Citation `Kumar2006' on page 6 undefined on input line 3.
-
-
-LaTeX Warning: Citation `Unknown2015' on page 6 undefined on input line 3.
-
+) (./tex/related_work.tex) [6] (./tex/system_overview.tex)
+(./tex/roles_responsibilities.tex
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -764,305 +759,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ... that are commercially available in today‚Ä
-                                                  ôs market are very expensi...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...that are commercially available in today‚Äô
-                                                  s market are very expensiv...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! You can't use a prefix with `\endcsname'.
-<to be read again> 
-                   \endcsname 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-I'll pretend you didn't say \long or \outer or \global or \protected.
-
-! Extra \endcsname.
-<recently read> \endcsname 
-                           
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@cite@out #1->\citeform {\csname #1\endcsname 
-                                               }
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@cite@out #1->\citeform {\csname #1\endcsname }
-                                                
-l.5 ... our research showed was \"\$99 USD\" \cite
-                                                  {TheEyeTribe2015} , other ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! You can't use a prefix with `\endcsname'.
-<to be read again> 
-                   \endcsname 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-I'll pretend you didn't say \long or \outer or \global or \protected.
-
-! Extra \endcsname.
-<recently read> \endcsname 
-                           
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@cite@out #1->\citeform {\csname #1\endcsname 
-                                               }
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@cite@out #1->\citeform {\csname #1\endcsname }
-                                                
-l.5 ...systems cost around \"\$22,000 USD.\" \cite
-                                                  {EyeTracking2011} The comp...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! You can't use a prefix with `\endcsname'.
-<to be read again> 
-                   \endcsname 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-I'll pretend you didn't say \long or \outer or \global or \protected.
-
-! Extra \endcsname.
-<recently read> \endcsname 
-                           
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@cite@out #1->\citeform {\csname #1\endcsname 
-                                               }
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Extra }, or forgotten \endgroup.
-\@cite@out #1->\citeform {\csname #1\endcsname }
-                                                
-l.5 ...G, which created the \"\$22,000 USD\" \cite
-                                                  {EyeTracking2011} system, ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-) [6] (./tex/system_overview.tex
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ill project  infrared light into the user‚Ä
-                                                  ôs eye and using our camer...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ll project  infrared light into the user‚Äô
-                                                  s eye and using our camera...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-) (./tex/roles_responsibilities.tex
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...any impediments that may obstruct a team‚Ä
+l.13 ...any impediments that may obstruct a team‚Ä
                                                   ôs progression towards a s...
 
 You need to provide a definition with \DeclareInputText 
@@ -1076,65 +773,46 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...ny impediments that may obstruct a team‚Äô
+l.13 ...ny impediments that may obstruct a team‚Äô
                                                   s progression towards a sp...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) (./tex/facilities_equipment.tex) (./tex/cost_proposal.tex)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.126 \section{Documentation \& Reporting}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[7] (./tex/documentation_reporting.tex [8]
-<images/chart.jpg, id=36, 850.17625pt x 261.97874pt>
+) (./tex/facilities_equipment.tex) [7] (./tex/cost_proposal.tex)
+(./tex/documentation_reporting.tex [8]
+<images/chart.jpg, id=35, 850.17625pt x 261.97874pt>
 File: images/chart.jpg Graphic file (type jpg)
  <use images/chart.jpg>
 Package pdftex.def Info: images/chart.jpg used on input line 24.
 (pdftex.def)             Requested size: 422.77664pt x 130.2775pt.
 
-[9 <./images/chart.jpg>]) [10] [11]
-No file project_charter.bbl.
+[9 <./images/chart.jpg>]) [10] (./project_charter.bbl)
 
 AED: lastpage setting LastPage
-(./project_charter.aux)
+[11] (./project_charter.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
- )
-(\end occurred inside a group at level 3)
-
-### simple group (level 3) entered at line 5 ({)
-### simple group (level 2) entered at line 5 ({)
-### simple group (level 1) entered at line 5 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 5858 strings out of 494985
- 77227 string characters out of 6180356
- 146667 words of memory out of 5000000
- 8882 multiletter control sequences out of 15000+600000
- 12028 words of font info for 35 fonts, out of 8000000 for 9000
+ 5850 strings out of 494985
+ 77129 string characters out of 6180356
+ 146676 words of memory out of 5000000
+ 8874 multiletter control sequences out of 15000+600000
+ 10891 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,12n,43p,1150b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
-095.600pk> </home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.60
-0pk> </home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> <
-/home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/
-cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on project_charter.pdf (11 pages, 214032 bytes).
+ 38i,12n,43p,1155b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </h
+ome/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/cs
+eflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/cseflnsn
+22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/cseflnsn22/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on project_charter.pdf (11 pages, 201593 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 310 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

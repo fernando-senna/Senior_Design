@@ -5,6 +5,6 @@
  & \textbf {\vhchangename }\\\hline 
 0.1
  & 10.07.2015
- & \listset {JT, FN, ZA, KB, JS}
+ & \listset {JT|FN|ZA|KB|JS}
  & Project Charter Creation\\\hline 
 \end {longtable}
