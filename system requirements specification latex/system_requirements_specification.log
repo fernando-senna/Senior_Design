@@ -1,15 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.8)  28 OCT 2015 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 OCT 2015 18:51
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **system_requirements_specification.tex
 (./system_requirements_specification.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,22 +24,22 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -54,22 +55,22 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)) (./mathdesign.sty
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(./mathdesign.sty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-) (./mdbch.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg)
+(./mdbch.sty
 Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
 n Project)
-
-(./mdfont.def
+ (./mdfont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 ) (./mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
@@ -127,23 +128,25 @@ LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
 
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks16
 \XKV@tempa@toks=\toks17
+)
 \XKV@depth=\count90
-File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186
 .
-LaTeX Font Info:    No file T1mdbch.fd. on input line 186.
 
-
-LaTeX Font Warning: Font shape `T1/mdbch/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 186.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
+File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
+)
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 186.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 449.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 450.
 \symmathdesignA=\mathgroup7
@@ -156,39 +159,40 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip43
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks21
 \ex@=\dimen111
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen112
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count91
@@ -229,21 +233,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count103
@@ -258,110 +262,93 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (./hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language3
+\langwohyphens=\language80
 LaTeX Info: Redefining \_ on input line 43.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count104
 \float@exts=\toks26
 \float@box=\box28
 \@float@everytoks=\toks27
 \@floatcapt=\box29
-)
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip47
-\subfigcapskip=\skip48
-\subfigcaptopadj=\dimen122
-\subfigbottomskip=\skip49
-\subfigcapmargin=\dimen123
-\subfiglabelskip=\skip50
+) (./subfigure.sty
+Package: subfigure 1995/03/06 v2.0 subfigure package
+Package: subfigure 1995/03/06 v2.0
 \c@subfigure=\count105
 \c@lofdepth=\count106
 \c@subtable=\count107
 \c@lotdepth=\count108
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip51
-\subfig@bottom=\skip52
-)
-(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+) (./sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
-)
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (./titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box30
-\beforetitleunit=\skip53
-\aftertitleunit=\skip54
-\ttl@plus=\dimen124
-\ttl@minus=\dimen125
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen122
+\ttl@minus=\dimen123
 \ttl@toksa=\toks28
-\titlewidth=\dimen126
-\titlewidthlast=\dimen127
-\titlewidthfirst=\dimen128
-)
-(/usr/share/texlive/texmf-dist/tex/latex/vhistory/vhistory.sty
+\titlewidth=\dimen124
+\titlewidthlast=\dimen125
+\titlewidthfirst=\dimen126
+) (./vhistory.sty
 Package: vhistory 
 
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/ltxtable.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/carlisle/ltxtable.sty
 Package: ltxtable 1995/12/11 v0.2 longtable/tabularx merge (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen129
-\extrarowheight=\dimen130
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen127
+\extrarowheight=\dimen128
 \NC@list=\toks29
-\extratabsurround=\skip55
-\backup@length=\skip56
+\extratabsurround=\skip49
+\backup@length=\skip50
 )
-\TX@col@width=\dimen131
-\TX@old@table=\dimen132
-\TX@old@col=\dimen133
-\TX@target=\dimen134
-\TX@delta=\dimen135
+\TX@col@width=\dimen129
+\TX@old@table=\dimen130
+\TX@old@col=\dimen131
+\TX@target=\dimen132
+\TX@delta=\dimen133
 \TX@cols=\count109
 \TX@ftn=\toks30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip57
-\LTright=\skip58
-\LTpre=\skip59
-\LTpost=\skip60
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
 \LTchunksize=\count110
-\LTcapwidth=\dimen136
+\LTcapwidth=\dimen134
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
@@ -371,8 +358,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count113
 \c@LT@chunks=\count114
 \LT@p@ftn=\toks31
-))
-(/usr/share/texlive/texmf-dist/tex/latex/vhistory/sets.sty
+)) (./sets.sty
 Package: sets 
 \c@s@tlength=\count115
 )
@@ -380,27 +366,27 @@ Reading file system_requirements_specification.hst...
 (./system_requirements_specification.hst)
 \vh@verfile=\write3
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip61
-\f@ncyO@elh=\skip62
-\f@ncyO@erh=\skip63
-\f@ncyO@olh=\skip64
-\f@ncyO@orh=\skip65
-\f@ncyO@elf=\skip66
-\f@ncyO@erf=\skip67
-\f@ncyO@olf=\skip68
-\f@ncyO@orf=\skip69
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip55
+\f@ncyO@elh=\skip56
+\f@ncyO@erh=\skip57
+\f@ncyO@olh=\skip58
+\f@ncyO@orh=\skip59
+\f@ncyO@elf=\skip60
+\f@ncyO@erf=\skip61
+\f@ncyO@olf=\skip62
+\f@ncyO@orf=\skip63
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/abstract/abstract.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip70
-\absleftindent=\skip71
-\absrightindent=\skip72
-\absparindent=\skip73
-\absparsep=\skip74
+\abstitleskip=\skip64
+\absleftindent=\skip65
+\absrightindent=\skip66
+\absparindent=\skip67
+\absparsep=\skip68
 )
 (./system_requirements_specification.aux)
 \openout1 = `system_requirements_specification.aux'.
@@ -420,31 +406,17 @@ LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 63.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 63.
 
-No file MDAcmr.fd.
-
-! LaTeX Error: This NFSS system isn't set up properly.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \begin{document}
-                     
-For encoding scheme MDA the defaults cmr/m/n do not form a valid font shape
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdacmr.fd
+File: mdacmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 63.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 63.
-No file MDBcmr.fd.
 
-! LaTeX Error: This NFSS system isn't set up properly.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \begin{document}
-                     
-For encoding scheme MDB the defaults cmr/m/n do not form a valid font shape
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
+File: mdbcmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -480,24 +452,24 @@ For encoding scheme MDB the defaults cmr/m/n do not form a valid font shape
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
-\scratchdimen=\dimen137
+\scratchdimen=\dimen135
 \scratchbox=\box35
 \nofMPsegments=\count117
 \nofMParguments=\count118
 \everyMPshowfont=\toks32
 \MPscratchCnt=\count119
-\MPscratchDim=\dimen138
+\MPscratchDim=\dimen136
 \MPnumerator=\count120
 \makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks33
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -506,22 +478,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -533,44 +505,49 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 63.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 19.91054pt on input line 66.
+LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
+(Font)              scaled to size 19.91054pt on input line 66.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 19.91054pt on input line 66.
 
-
-LaTeX Font Warning: Font shape `T1/mdbch/m/fsc' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 66.
-
-
-LaTeX Font Warning: Font shape `T1/mdbch/b/fsc' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 66.
-
-<images/test_image.jpg, id=1, 903.375pt x 677.53125pt>
+<images/test_image.jpg, id=1, 564.60938pt x 240.9pt>
 File: images/test_image.jpg Graphic file (type jpg)
 
 <use images/test_image.jpg>
 Package pdftex.def Info: images/test_image.jpg used on input line 72.
-(pdftex.def)             Requested size: 281.85587pt x 211.39716pt.
+(pdftex.def)             Requested size: 281.85587pt x 120.25854pt.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 77.
+LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
+(Font)              scaled to size 11.52008pt on input line 77.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 11.52008pt on input line 77.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 78.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/test_image.jpg>]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/test_image.jpg>]
 \openout3 = `system_requirements_specification.ver'.
 
-
-
-LaTeX Font Warning: Font shape `T1/mdbch/b/n' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 86.
-
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 13.82408pt on input line 86.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 13.82408pt on input line 86.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 13.82408pt on input line 86.
 \vh@hstfile=\write4
 \openout4 = `system_requirements_specification.hst'.
+
 
 (./system_requirements_specification.ver)
 (./system_requirements_specification.ver)
@@ -581,154 +558,138 @@ Underfull \vbox (badness 10000) detected at line 10
 ) [2] (./system_requirements_specification.toc
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 2.
 
-LaTeX Font Info:    No file OT1mdbch.fd. on input line 2.
 
-
-LaTeX Font Warning: Font shape `OT1/mdbch/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 2.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 2.
 
-LaTeX Font Info:    No file OMLmdbch.fd. on input line 2.
 
-LaTeX Font Warning: Font shape `OML/mdbch/m/it' undefined
-(Font)              using `OML/cmm/m/it' instead on input line 2.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
+File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 2.
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 2.
 
-LaTeX Font Info:    No file OMSmdbch.fd. on input line 2.
 
-LaTeX Font Warning: Font shape `OMS/mdbch/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 2.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
+File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 2.
 
-LaTeX Font Info:    No file OMXmdbch.fd. on input line 2.
 
-LaTeX Font Warning: Font shape `OMX/mdbch/m/n' undefined
-(Font)              using `OMX/cmex/m/n' instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `OML/mdbch/m/n' undefined
-(Font)              using `OML/mdbch/m/it' instead on input line 2.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 2.
 
-LaTeX Font Info:    No file MDAmdbch.fd. on input line 2.
 
-LaTeX Font Warning: Font shape `MDA/mdbch/m/n' undefined
-(Font)              using `MDA/cmr/m/n' instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `MDA/cmr/m/n' undefined
-(Font)              using `MDA/cmr/m/n' instead on input line 2.
-
-! Corrupted NFSS tables.
-wrong@fontshape ...message {Corrupted NFSS tables}
-                                                  error@fontshape else let f...
-l.2 ...ction}{\numberline {1.1}Purpose and Use}{5}
-                                                  
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-LaTeX Font Warning: Font shape `MDA/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `MDA/mdbch/m/n' undefined
-(Font)              using `MDA/cmr/m/n' instead on input line 2.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 2.
 
-LaTeX Font Info:    No file MDBmdbch.fd. on input line 2.
 
-LaTeX Font Warning: Font shape `MDB/mdbch/m/n' undefined
-(Font)              using `MDB/cmr/m/n' instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `MDB/cmr/m/n' undefined
-(Font)              using `MDB/cmr/m/n' instead on input line 2.
-
-! Corrupted NFSS tables.
-wrong@fontshape ...message {Corrupted NFSS tables}
-                                                  error@fontshape else let f...
-l.2 ...ction}{\numberline {1.1}Purpose and Use}{5}
-                                                  
-(That was another \errmessage.)
-
-
-LaTeX Font Warning: Font shape `MDB/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `MDB/mdbch/m/n' undefined
-(Font)              using `MDB/cmr/m/n' instead on input line 2.
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
+File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+
+[3])
 \tf@toc=\write5
 \openout5 = `system_requirements_specification.toc'.
 
- [3] (./system_requirements_specification.lof)
+ [4] (./system_requirements_specification.lof)
 \tf@lof=\write6
 \openout6 = `system_requirements_specification.lof'.
 
- [4] (./tex/product_concept.tex
+ [5]
+(./tex/product_concept.tex
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 3.
 File: images/test_image.jpg Graphic file (type jpg)
-
-<use images/test_image.jpg>
+ <use images/test_image.jpg>
 Package pdftex.def Info: images/test_image.jpg used on input line 11.
-(pdftex.def)             Requested size: 281.85587pt x 211.39716pt.
-) [5] (./tex/product_description.tex) [6]
-(./tex/customer_requirements.tex
-
-LaTeX Font Warning: Font shape `T1/mdbch/m/it' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 5.
-
-
-LaTeX Font Warning: Font shape `T1/mdbch/b/it' undefined
-(Font)              using `T1/mdbch/b/n' instead on input line 11.
-
-
-LaTeX Warning: Citation `Rubin2012' on page 7 undefined on input line 11.
-
-[7] [8]) [9] (./tex/packaging_requirements.tex) [10]
-(./tex/performance_requirements.tex [11] [12] [13] [14]) [15]
-(./tex/safety_requirements.tex) [16]
-(./tex/maintenance_support_requirements.tex) [17] (./tex/other_requirements.tex
-) [18] (./tex/future_items.tex) [19]
-No file system_requirements_specification.bbl.
-
+(pdftex.def)             Requested size: 281.85587pt x 120.25854pt.
+) [6]
+(./tex/product_description.tex) [7] (./tex/customer_requirements.tex
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 10.51207pt on input line 4.
+ [8])
+[9] (./tex/packaging_requirements.tex [10] [11]) [12]
+(./tex/performance_requirements.tex [13] [14] [15]) [16]
+(./tex/safety_requirements.tex [17]
+./tex/safety_requirements.tex:58: Misplaced alignment tab character &.
+l.58 	{Enviromental Health &
+                             Radiation Safety.}
+? 
+) [18] (./tex/maintenance_support_requirements.tex) [19]
+(./tex/other_requirements.tex) [20] (./tex/future_items.tex) [21]
+(./system_requirements_specification.bbl
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 5.
+) 
 AED: lastpage setting LastPage
-(./system_requirements_specification.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[22] (./system_requirements_specification.aux) ) 
 Here is how much of TeX's memory you used:
- 5839 strings out of 495028
- 77489 string characters out of 6181497
- 146559 words of memory out of 5000000
- 8862 multiletter control sequences out of 15000+600000
- 10891 words of font info for 31 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,12n,43p,895b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </h
-ome/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/cs
-eflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/cseflnsn
-22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/cseflnsn22/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on system_requirements_specification.pdf (19 pages, 163180 bytes
+ 5882 strings out of 493089
+ 79598 string characters out of 6134842
+ 152650 words of memory out of 5000000
+ 9147 multiletter control sequences out of 15000+600000
+ 63218 words of font info for 74 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,12n,43p,905b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-
+dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/local/texlive/2015/texmf-dist/fonts
+/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/mathdesign/mdbch/md-chr8t.pfb>
+Output written on system_requirements_specification.pdf (22 pages, 126589 bytes
 ).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
