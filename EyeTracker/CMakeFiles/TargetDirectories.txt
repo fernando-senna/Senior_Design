@@ -1,0 +1,1 @@
+/home/krishna/ClionProjects/EyeTracker/CMakeFiles/EyeTracker.dir
