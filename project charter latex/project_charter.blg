@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: project_charter.aux
+The style file: plain.bst
+Illegal, another \bibstyle command---line 43 of file project_charter.aux
+ : \bibstyle
+ :          {reference/IEEEtran_custom}
+I'm skipping whatever remains of this command
+Database file #1: reference/refs.bib
+Warning--empty year in Derrick
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            518 strings with 4330 characters,
+and the built_in function-call counts, 801 in all, are:
+= -- 73
+> -- 28
+< -- 0
++ -- 13
+- -- 8
+* -- 28
+:= -- 150
+add.period$ -- 10
+call.type$ -- 4
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 30
+empty$ -- 75
+format.name$ -- 8
+if$ -- 162
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 21
+num.names$ -- 8
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 21
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 1
+while$ -- 8
+width$ -- 5
+write$ -- 37
+(There was 1 error message)
