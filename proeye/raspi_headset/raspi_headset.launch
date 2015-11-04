@@ -1,0 +1,18 @@
+<launch>
+
+    <!--  create the raspi camera node / -->
+    <node name="raspicam" pkg="raspicam" type="raspicam_node">
+    <!-- <param name="framerate" value="90" type="int" /> -->
+    <!-- <param name="quality" value="10" /> -->
+    </node>
+    
+    <!--  create the pupil tracker node / -->
+    <node name="pupil_tracker" pkg="raspi_headset" type="pupil_tracker">
+    <param name="topic" value="/camera/image" />
+    <param name="display" value="false" />
+    </node>
+    
+    <!--  start image acquisition by calling the  / -->
+    <node pkg="rosservice" type="rosservice" name="start_capture" args="call /camera/start_capture"/>
+
+</launch>
