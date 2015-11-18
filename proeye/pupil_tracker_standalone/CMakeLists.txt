@@ -16,13 +16,13 @@ IF(UNIX)
 ENDIF(UNIX)
 
 # configure boost
-IF(WIN32)
-    find_package(Boost 1.55.0 COMPONENTS random) 
-    INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
-    LINK_DIRECTORIES(${Boost_LIBRARY_DIRS})
-ELSE(WIN32)
-    find_package(Boost REQUIRED)
-ENDIF(WIN32)
+#IF(WIN32)
+#    find_package(Boost 1.55.0 COMPONENTS random) 
+#    INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
+#    LINK_DIRECTORIES(${Boost_LIBRARY_DIRS})
+#ELSE(WIN32)
+#    find_package(Boost REQUIRED)
+#ENDIF(WIN32)
 
 # configure OpenCV
 IF(WIN32)

@@ -1,0 +1,3 @@
+/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/CMakeFiles/canny_tracker.dir
+/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/CMakeFiles/swirski_lib.dir
+/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/CMakeFiles/swirski_tracker.dir
