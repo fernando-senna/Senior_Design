@@ -1,19 +1,12 @@
 The Cypress CX3 is a MIPI to USB interface. This controller is fully functional with any image sensor that is compliant with a MIPI Camera Serial Interface (OmniVision 5640). The Cypress CX3 is used to control the communication between a computer and the device, since it uses a USB connection to power the device and transfer the data that it collected. Also in order for the device to store the data read from the camera module, it uses EEPROMS in order to prevent loosing data in cases the device looses power. Then the device will transfer its data to the computer via USB. The Cypress CX3 is also connected to the MIPI camera.
 
-\begin{figure}[h!]
-	\centering
- 	\includegraphics[width=0.60\textwidth]{images/Cypress.jpg}
- \caption{Cypress Subsystem Overview}
-\end{figure}
-
-
 \subsection{Interface Cypress CX3 & Daughter Board}
 This connector is used to interface between the daughter board and the CX3 Controller. The connector is also connected to the EEPROM of the device, since it will transfer the data collected and store it at the EEPROM. Other pins of the MIPI Camera BRD Connector are connected to CX3 Controller and the Base BRD Connector.
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/Cypress_Interface.jpg}
- \caption{Interface Subsystem}
+ 	\includegraphics[width=0.60\textwidth]{images/subsystem}
+ \caption{Example subsystem description diagram}
 \end{figure}
 
 \subsubsection{Assumptions}
@@ -25,12 +18,12 @@ TBD
 \subsubsection{Subsystem Interfaces}
 
 \begin {table}[H]
-\caption {Cypress CX3 and Daughter Board interface}
+\caption {Subsystem interfaces}
 \begin{center}
     \begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
     \hline
     ID & Description & Inputs & Outputs \\ \hline
-    \#04 & Communication with Daughter Board & \pbox{3cm}{Input 1 - MIPI Data \\ Input 2 - MIPI Clock \\ Input 3 - MIPI Power \\ Input 4 - SDA} & \pbox{3cm}{Output 1 - SCL \\ Output 2 - SDA}  \\ \hline
+    \#01 & Communication with Daughter Board & \pbox{3cm}{Input 1 - MIPI Data \\ Input 2 - MIPI Clock \\ Input 3 - MIPI Power \\ Input 4 - SDA} & \pbox{3cm}{Output 1 - SCL \\ Output 2 - SDA}  \\ \hline
     \end{tabular}
 \end{center}
 \end{table}
@@ -40,8 +33,8 @@ The main purpose of the CX3 Controller is to interface with the MIPI camera and 
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/Cypress_Controller}
- \caption{Cypress Controller Subsystem}
+ 	\includegraphics[width=0.60\textwidth]{images/subsystem}
+ \caption{Example subsystem description diagram}
 \end{figure}
 
 \subsubsection{Assumptions}
@@ -54,13 +47,13 @@ TBD
 TBD
 
 \begin {table}[H]
-\caption {Cx3 Controller interface}
+\caption {Subsystem interfaces}
 \begin{center}
     \begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
     \hline
     ID & Description & Inputs & Outputs \\ \hline
-    \#04 & Communication between CX3 Controller and MIPI & \pbox{3cm}{Input 1 - MIPI Data \\ Input 2 - MIPI Clock \\ Input 3 - MIPI Power \\ Input 4 - SDA} & \pbox{3cm}{Output 1 - SCL \\ Output 2 - SDA}  \\ \hline
-    \#05 & Communication between CX3 Controller and USB Interface & \pbox{3cm}{Input 1 - SCL \\ Input 2 - SDA} & \pbox{3cm}{Output 1 - MIPI Clock \\ Output 2 - MIPI Data}  \\ \hline
+    \#01 & Communication between CX3 Controller and MIPI & \pbox{3cm}{Input 1 - MIPI Data \\ Input 2 - MIPI Clock \\ Input 3 - MIPI Power \\ Input 4 - SDA} & \pbox{3cm}{Output 1 - SCL \\ Output 2 - SDA}  \\ \hline
+    \#02 & Communication between CX3 Controller and USB Interface & \pbox{3cm}{Input 1 - SCL \\ Input 2 - SDA} & \pbox{3cm}{Output 1 - MIPI Clock \\ Output 2 - MIPI Data}  \\ \hline
     \end{tabular}
 \end{center}
 \end{table}
@@ -70,8 +63,8 @@ The main purpose of the CX3 USB Interface is to serve as a bridge connection of 
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/Cypress_MIPI}
- \caption{MIPI to USB Subsystem}
+ 	\includegraphics[width=0.60\textwidth]{images/subsystem}
+ \caption{Example subsystem description diagram}
 \end{figure}
 
 \subsubsection{Assumptions}
@@ -84,13 +77,13 @@ TBD
 TBD
 
 \begin {table}[H]
-\caption {MIPI to USB interface}
+\caption {Subsystem interfaces}
 \begin{center}
     \begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
     \hline
     ID & Description & Inputs & Outputs \\ \hline
-    \#05 & Communication between USB Interface and CX3 Controller & \pbox{3cm}{Input 1 - MIPI Clock \\ Input 2 - MIPI Data \\ Input 3 - CX3_GPIO} & \pbox{3cm}{Output 1 - SDA \\ Output 2 - SCL}  \\ \hline
-    \#06 & Communication between USB Interface and Computer & \pbox{3cm}{N/A} & \pbox{3cm}{Output 1 - USB Data}  \\ \hline
+    \#01 & Communication between USB Interface and CX3 Controller & \pbox{3cm}{Input 1 - MIPI Clock \\ Input 2 - MIPI Data \\ Input 3 - CX3_GPIO} & \pbox{3cm}{Output 1 - SDA \\ Output 2 - SCL}  \\ \hline
+    \#02 & Communication between USB Interface and Computer & \pbox{3cm}{N/A} & \pbox{3cm}{Output 1 - USB Data}  \\ \hline
     \end{tabular}
 \end{center}
 \end{table}
