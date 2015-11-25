@@ -1,5 +1,10 @@
-\contentsline {table}{\numberline {2}{\ignorespaces Subsystem interfaces}}{10}
-\contentsline {table}{\numberline {3}{\ignorespaces Subsystem interfaces}}{10}
-\contentsline {table}{\numberline {4}{\ignorespaces Subsystem interfaces}}{11}
-\contentsline {table}{\numberline {5}{\ignorespaces Subsystem interfaces}}{13}
-\contentsline {table}{\numberline {6}{\ignorespaces Subsystem interfaces}}{15}
+\contentsline {table}{\numberline {2}{\ignorespaces Input Subsystem interface}}{9}
+\contentsline {table}{\numberline {3}{\ignorespaces Processor Subsystem interface}}{11}
+\contentsline {table}{\numberline {4}{\ignorespaces Track and Display Subsystem interface}}{12}
+\contentsline {table}{\numberline {5}{\ignorespaces Output Subsystem interface}}{13}
+\contentsline {table}{\numberline {6}{\ignorespaces BRD Connector interface}}{15}
+\contentsline {table}{\numberline {7}{\ignorespaces Camera Module interface}}{16}
+\contentsline {table}{\numberline {8}{\ignorespaces Camera Connector interface}}{17}
+\contentsline {table}{\numberline {9}{\ignorespaces Cypress CX3 and Daughter Board interface}}{19}
+\contentsline {table}{\numberline {10}{\ignorespaces Cx3 Controller interface}}{20}
+\contentsline {table}{\numberline {11}{\ignorespaces MIPI to USB interface}}{21}

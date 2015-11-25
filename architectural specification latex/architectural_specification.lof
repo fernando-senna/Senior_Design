@@ -1,5 +1,15 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces A simple architectural layer diagram}}{6}
-\contentsline {figure}{\numberline {2}{\ignorespaces A very complex data flow diagram}}{8}
-\contentsline {figure}{\numberline {3}{\ignorespaces Example subsystem description diagram}}{9}
-\contentsline {figure}{\numberline {4}{\ignorespaces Example subsystem description diagram}}{12}
-\contentsline {figure}{\numberline {5}{\ignorespaces Example subsystem description diagram}}{14}
+\contentsline {figure}{\numberline {2}{\ignorespaces A simple data flow diagram}}{8}
+\contentsline {figure}{\numberline {3}{\ignorespaces Software Subsystem}}{9}
+\contentsline {figure}{\numberline {4}{\ignorespaces Input Subsystem}}{10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Processor Subsystem}}{10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Tracker Subsystem}}{11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Output Subsystem}}{12}
+\contentsline {figure}{\numberline {8}{\ignorespaces Daughter Board Subsystem}}{14}
+\contentsline {figure}{\numberline {9}{\ignorespaces Daughter Board Interface}}{14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Camera Module diagram}}{15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Camera Connector diagram}}{16}
+\contentsline {figure}{\numberline {12}{\ignorespaces Cypress Subsystem Overview}}{18}
+\contentsline {figure}{\numberline {13}{\ignorespaces Interface Subsystem}}{19}
+\contentsline {figure}{\numberline {14}{\ignorespaces Cypress Controller Subsystem}}{20}
+\contentsline {figure}{\numberline {15}{\ignorespaces MIPI to USB Subsystem}}{21}

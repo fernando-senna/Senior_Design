@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{5}
 \contentsline {section}{\numberline {2}System Overview}{6}
 \contentsline {subsection}{\numberline {2.1}Software Layer Description}{6}
-\contentsline {subsection}{\numberline {2.2}Daughter Board Description}{7}
+\contentsline {subsection}{\numberline {2.2}Daughter Board Description}{6}
 \contentsline {subsection}{\numberline {2.3}Cypress CX3 Description}{7}
 \contentsline {section}{\numberline {3}Subsystem Definitions \& Data Flow}{8}
 \contentsline {section}{\numberline {4}Software Subsystems}{9}
@@ -10,24 +10,40 @@
 \contentsline {subsubsection}{\numberline {4.1.2}Responsibilities}{9}
 \contentsline {subsubsection}{\numberline {4.1.3}Subsystem Interfaces}{9}
 \contentsline {subsection}{\numberline {4.2}Processor Subsystem}{10}
-\contentsline {subsubsection}{\numberline {4.2.1}Assumptions}{10}
-\contentsline {subsubsection}{\numberline {4.2.2}Responsibilities}{10}
-\contentsline {subsubsection}{\numberline {4.2.3}Subsystem Interfaces}{10}
-\contentsline {subsection}{\numberline {4.3}Track and Display Subsystem}{10}
-\contentsline {subsubsection}{\numberline {4.3.1}Assumptions}{10}
-\contentsline {subsubsection}{\numberline {4.3.2}Responsibilities}{10}
-\contentsline {subsubsection}{\numberline {4.3.3}Subsystem Interfaces}{10}
-\contentsline {section}{\numberline {5}Daughterboard Subsystems}{12}
-\contentsline {subsection}{\numberline {5.1}Subsystem 1}{12}
-\contentsline {subsubsection}{\numberline {5.1.1}Assumptions}{12}
-\contentsline {subsubsection}{\numberline {5.1.2}Responsibilities}{12}
-\contentsline {subsubsection}{\numberline {5.1.3}Subsystem Interfaces}{12}
-\contentsline {subsection}{\numberline {5.2}Subsystem 2}{13}
-\contentsline {subsection}{\numberline {5.3}Subsystem 3}{13}
-\contentsline {section}{\numberline {6}Cypress CX3 Subsystems}{14}
-\contentsline {subsection}{\numberline {6.1}Subsystem 1}{14}
-\contentsline {subsubsection}{\numberline {6.1.1}Assumptions}{14}
-\contentsline {subsubsection}{\numberline {6.1.2}Responsibilities}{14}
-\contentsline {subsubsection}{\numberline {6.1.3}Subsystem Interfaces}{14}
-\contentsline {subsection}{\numberline {6.2}Subsystem 2}{15}
-\contentsline {subsection}{\numberline {6.3}Subsystem 3}{15}
+\contentsline {subsubsection}{\numberline {4.2.1}Assumptions}{11}
+\contentsline {subsubsection}{\numberline {4.2.2}Responsibilities}{11}
+\contentsline {subsubsection}{\numberline {4.2.3}Subsystem Interfaces}{11}
+\contentsline {subsection}{\numberline {4.3}Track and Display Subsystem}{11}
+\contentsline {subsubsection}{\numberline {4.3.1}Assumptions}{11}
+\contentsline {subsubsection}{\numberline {4.3.2}Responsibilities}{12}
+\contentsline {subsubsection}{\numberline {4.3.3}Subsystem Interfaces}{12}
+\contentsline {subsection}{\numberline {4.4}Output Subsystem}{12}
+\contentsline {subsubsection}{\numberline {4.4.1}Assumptions}{12}
+\contentsline {subsubsection}{\numberline {4.4.2}Responsibilities}{12}
+\contentsline {subsubsection}{\numberline {4.4.3}Subsystem Interfaces}{13}
+\contentsline {section}{\numberline {5}Daughterboard Subsystems}{14}
+\contentsline {subsection}{\numberline {5.1}BRD Connector}{14}
+\contentsline {subsubsection}{\numberline {5.1.1}Assumptions}{14}
+\contentsline {subsubsection}{\numberline {5.1.2}Responsibilities}{15}
+\contentsline {subsubsection}{\numberline {5.1.3}Subsystem Interfaces}{15}
+\contentsline {subsection}{\numberline {5.2}Camera Module}{15}
+\contentsline {subsubsection}{\numberline {5.2.1}Assumptions}{15}
+\contentsline {subsubsection}{\numberline {5.2.2}Responsibilities}{16}
+\contentsline {subsubsection}{\numberline {5.2.3}Subsystem Interfaces}{16}
+\contentsline {subsection}{\numberline {5.3}Camera Connector}{16}
+\contentsline {subsubsection}{\numberline {5.3.1}Assumptions}{16}
+\contentsline {subsubsection}{\numberline {5.3.2}Responsibilities}{16}
+\contentsline {subsubsection}{\numberline {5.3.3}Subsystem Interfaces}{17}
+\contentsline {section}{\numberline {6}Cypress CX3 Subsystems}{18}
+\contentsline {subsection}{\numberline {6.1}Interface Cypress CX3 & Daughter Board}{18}
+\contentsline {subsubsection}{\numberline {6.1.1}Assumptions}{18}
+\contentsline {subsubsection}{\numberline {6.1.2}Responsibilities}{18}
+\contentsline {subsubsection}{\numberline {6.1.3}Subsystem Interfaces}{19}
+\contentsline {subsection}{\numberline {6.2}Cypress CX3 Controller}{19}
+\contentsline {subsubsection}{\numberline {6.2.1}Assumptions}{19}
+\contentsline {subsubsection}{\numberline {6.2.2}Responsibilities}{19}
+\contentsline {subsubsection}{\numberline {6.2.3}Subsystem Interfaces}{20}
+\contentsline {subsection}{\numberline {6.3}MIPI to USB Bridge}{20}
+\contentsline {subsubsection}{\numberline {6.3.1}Assumptions}{20}
+\contentsline {subsubsection}{\numberline {6.3.2}Responsibilities}{21}
+\contentsline {subsubsection}{\numberline {6.3.3}Subsystem Interfaces}{21}

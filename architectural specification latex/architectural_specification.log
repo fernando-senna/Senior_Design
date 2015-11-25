@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.8)  18 NOV 2015 11:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.25)  25 NOV 2015 05:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **architectural_specification.tex
 (./architectural_specification.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -65,11 +65,12 @@ Package: mathdesign 2013/08/29 v2.31 Math Design Project
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-) (./mdbch.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg)
+(./mdbch.sty
 Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
 n Project)
-
-(./mdfont.def
+ (./mdfont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 ) (./mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
@@ -138,12 +139,12 @@ File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186
 .
-LaTeX Font Info:    No file T1mdbch.fd. on input line 186.
 
-
-LaTeX Font Warning: Font shape `T1/mdbch/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 186.
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
+File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
+)
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 186.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 449.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 450.
 \symmathdesignA=\mathgroup7
@@ -156,7 +157,8 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip43
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
@@ -228,14 +230,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+) (./xcolor.sty
+Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 136.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -248,15 +249,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count103
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+Package xcolor Info: Color model `cmy' added on input line 972.
+Package xcolor Info: Color model `hsb' added on input line 980.
+Package xcolor Info: Color model `HTML' added on input line 1000.
+Package xcolor Info: Color model `HSB' added on input line 1006.
+Package xcolor Info: Color model `Gray' added on input line 1012.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
@@ -265,7 +262,7 @@ Package: cite 2010/09/10  v 5.3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language3
+\langwohyphens=\language79
 LaTeX Info: Redefining \_ on input line 43.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -438,31 +435,17 @@ LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 64.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 64.
 
-No file MDAcmr.fd.
-
-! LaTeX Error: This NFSS system isn't set up properly.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \begin{document}
-                     
-For encoding scheme MDA the defaults cmr/m/n do not form a valid font shape
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
+File: mdacmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 64.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 64.
-No file MDBcmr.fd.
 
-! LaTeX Error: This NFSS system isn't set up properly.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \begin{document}
-                     
-For encoding scheme MDB the defaults cmr/m/n do not form a valid font shape
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
+File: mdbcmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -562,14 +545,12 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 64.
-
-
-LaTeX Font Warning: Font shape `T1/mdbch/m/fsc' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 67.
-
-
-LaTeX Font Warning: Font shape `T1/mdbch/b/fsc' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 67.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 19.91054pt on input line 67.
+LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
+(Font)              scaled to size 19.91054pt on input line 67.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 19.91054pt on input line 67.
 
 <images/eyetracker.jpg, id=1, 564.60938pt x 240.9pt>
 File: images/eyetracker.jpg Graphic file (type jpg)
@@ -577,112 +558,124 @@ File: images/eyetracker.jpg Graphic file (type jpg)
 <use images/eyetracker.jpg>
 Package pdftex.def Info: images/eyetracker.jpg used on input line 73.
 (pdftex.def)             Requested size: 281.85587pt x 120.25854pt.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 78.
+LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
+(Font)              scaled to size 11.52008pt on input line 78.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 11.52008pt on input line 78.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 79.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/eyetracker.jpg>]
 \openout3 = `architectural_specification.ver'.
 
-
-
-LaTeX Font Warning: Font shape `T1/mdbch/b/n' undefined
-(Font)              using `T1/mdbch/m/n' instead on input line 87.
-
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 13.82408pt on input line 87.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 13.82408pt on input line 87.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 13.82408pt on input line 87.
 \vh@hstfile=\write4
 \openout4 = `architectural_specification.hst'.
 
-(./architectural_specification.ver) (./architectural_specification.ver)
-(./architectural_specification.ver
+ (./architectural_specification.ver)
+(./architectural_specification.ver) (./architectural_specification.ver
 Underfull \vbox (badness 10000) detected at line 10
  []
 
 ) [2] (./architectural_specification.toc
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 3.
 
-LaTeX Font Info:    No file OT1mdbch.fd. on input line 3.
 
-
-LaTeX Font Warning: Font shape `OT1/mdbch/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 3.
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 3.
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 3.
 
-LaTeX Font Info:    No file OMLmdbch.fd. on input line 3.
 
-LaTeX Font Warning: Font shape `OML/mdbch/m/it' undefined
-(Font)              using `OML/cmm/m/it' instead on input line 3.
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
+File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 3.
 
-LaTeX Font Info:    No file OMSmdbch.fd. on input line 3.
 
-LaTeX Font Warning: Font shape `OMS/mdbch/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 3.
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
+File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 3.
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 3.
 
-LaTeX Font Info:    No file OMXmdbch.fd. on input line 3.
 
-LaTeX Font Warning: Font shape `OMX/mdbch/m/n' undefined
-(Font)              using `OMX/cmex/m/n' instead on input line 3.
-
-
-LaTeX Font Warning: Font shape `OML/mdbch/m/n' undefined
-(Font)              using `OML/mdbch/m/it' instead on input line 3.
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 3.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 3.
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 3.
 
-LaTeX Font Info:    No file MDAmdbch.fd. on input line 3.
 
-LaTeX Font Warning: Font shape `MDA/mdbch/m/n' undefined
-(Font)              using `MDA/cmr/m/n' instead on input line 3.
-
-
-LaTeX Font Warning: Font shape `MDA/cmr/m/n' undefined
-(Font)              using `MDA/cmr/m/n' instead on input line 3.
-
-! Corrupted NFSS tables.
-wrong@fontshape ...message {Corrupted NFSS tables}
-                                                  error@fontshape else let f...
-l.3 ...berline {2.1}Software Layer Description}{6}
-                                                  
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-LaTeX Font Warning: Font shape `MDA/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 3.
-
-
-LaTeX Font Warning: Font shape `MDA/mdbch/m/n' undefined
-(Font)              using `MDA/cmr/m/n' instead on input line 3.
-
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 3.
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 3.
 
-LaTeX Font Info:    No file MDBmdbch.fd. on input line 3.
 
-LaTeX Font Warning: Font shape `MDB/mdbch/m/n' undefined
-(Font)              using `MDB/cmr/m/n' instead on input line 3.
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
+File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
+)
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 3.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 3.
 
-
-LaTeX Font Warning: Font shape `MDB/cmr/m/n' undefined
-(Font)              using `MDB/cmr/m/n' instead on input line 3.
-
-! Corrupted NFSS tables.
-wrong@fontshape ...message {Corrupted NFSS tables}
-                                                  error@fontshape else let f...
-l.3 ...berline {2.1}Software Layer Description}{6}
+! Misplaced alignment tab character &.
+<argument> ...berline {6.1}Interface Cypress CX3 &
+                                                   Daughter Board
+l.38 ...nterface Cypress CX3 & Daughter Board}{18}
                                                   
-(That was another \errmessage.)
-
-
-LaTeX Font Warning: Font shape `MDB/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 3.
-
-
-LaTeX Font Warning: Font shape `MDB/mdbch/m/n' undefined
-(Font)              using `MDB/cmr/m/n' instead on input line 3.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 )
 \tf@toc=\write5
@@ -698,69 +691,332 @@ LaTeX Font Warning: Font shape `MDB/mdbch/m/n' undefined
 
 
 [4] (./tex/introduction.tex) [5] (./tex/system_overview.tex
-<images/data_flow.png, id=24, 514.17094pt x 554.07pt>
-File: images/data_flow.png Graphic file (type png)
+<images/Diagram_WHOLE.jpg, id=21, 984.67876pt x 867.99281pt>
+File: images/Diagram_WHOLE.jpg Graphic file (type jpg)
 
-<use images/data_flow.png>
-Package pdftex.def Info: images/data_flow.png used on input line 10.
-(pdftex.def)             Requested size: 281.85587pt x 303.73337pt.
- [6 <./images/data_flow.png>]) [7]
+<use images/Diagram_WHOLE.jpg>
+Package pdftex.def Info: images/Diagram_WHOLE.jpg used on input line 10.
+(pdftex.def)             Requested size: 281.85587pt x 248.45332pt.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 14.
+ [6 <./images/Diagram_WHOLE.jpg>]) [7]
 (./tex/data_flow.tex
-File: images/data_flow.png Graphic file (type png)
- <use images/data_flow.png>
-Package pdftex.def Info: images/data_flow.png used on input line 5.
-(pdftex.def)             Requested size: 469.75502pt x 506.21664pt.
+File: images/Diagram_WHOLE.jpg Graphic file (type jpg)
+ <use images/Diagram_WHOLE.jpg>
+Package pdftex.def Info: images/Diagram_WHOLE.jpg used on input line 5.
+(pdftex.def)             Requested size: 469.75502pt x 414.08887pt.
 ) [8]
 (./tex/x_layer_subsystems.tex
-<images/subsystem.png, id=35, 237.13594pt x 242.40562pt>
-File: images/subsystem.png Graphic file (type png)
+<images/Software.jpg, id=33, 474.27188pt x 432.86719pt>
+File: images/Software.jpg Graphic file (type jpg)
 
-<use images/subsystem.png>
-Package pdftex.def Info: images/subsystem.png used on input line 10.
-(pdftex.def)             Requested size: 281.85587pt x 288.12965pt.
+<use images/Software.jpg>
+Package pdftex.def Info: images/Software.jpg used on input line 6.
+(pdftex.def)             Requested size: 281.85587pt x 257.25864pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]\T1/mdbch/b/fsc/10.95 From Cy-press
+<images/Software_Input.jpg, id=34, 474.27188pt x 428.35031pt>
+File: images/Software_Input.jpg Graphic file (type jpg)
+
+<use images/Software_Input.jpg>
+Package pdftex.def Info: images/Software_Input.jpg used on input line 16.
+(pdftex.def)             Requested size: 281.85587pt x 254.5742pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 10.51207pt on input line 20.
+<images/Software_Processor.jpg, id=35, 474.27188pt x 429.85594pt>
+File: images/Software_Processor.jpg Graphic file (type jpg)
+
+<use images/Software_Processor.jpg>
+Package pdftex.def Info: images/Software_Processor.jpg used on input line 51.
+(pdftex.def)             Requested size: 281.85587pt x 255.46902pt.
+ [9 <./images/Software.jpg>] [10 <./images/Software_Input.jpg> <./images/Softwa
+re_Processor.jpg>]
+<images/Software_Track.jpg, id=42, 474.27188pt x 428.35031pt>
+File: images/Software_Track.jpg Graphic file (type jpg)
+
+<use images/Software_Track.jpg>
+Package pdftex.def Info: images/Software_Track.jpg used on input line 88.
+(pdftex.def)             Requested size: 281.85587pt x 254.5742pt.
+ [11 <./images/Software_Track.jpg>]
+<images/Software_Output.jpg, id=46, 474.27188pt x 423.08063pt>
+File: images/Software_Output.jpg Graphic file (type jpg)
+
+<use images/Software_Output.jpg>
+Package pdftex.def Info: images/Software_Output.jpg used on input line 125.
+(pdftex.def)             Requested size: 281.85587pt x 251.44235pt.
+ [12 <./images/Software_Output.jpg>]) [13]
+(./tex/y_layer_subsystems.tex
+<images/DaughterBoard.jpg, id=54, 516.42938pt x 413.29407pt>
+File: images/DaughterBoard.jpg Graphic file (type jpg)
+
+<use images/DaughterBoard.jpg>
+Package pdftex.def Info: images/DaughterBoard.jpg used on input line 4.
+(pdftex.def)             Requested size: 281.85587pt x 225.57187pt.
+
+<images/DaughterBoard_Interface.jpg, id=55, 518.6878pt x 421.575pt>
+File: images/DaughterBoard_Interface.jpg Graphic file (type jpg)
+
+<use images/DaughterBoard_Interface.jpg>
+Package pdftex.def Info: images/DaughterBoard_Interface.jpg used on input line 
+13.
+(pdftex.def)             Requested size: 281.85587pt x 229.09445pt.
+ [14 <./images/DaughterBoard.jpg> <./images/DaughterBoard_Interface.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]\T1/mdbch/m/n/10.95 Input 1 - MIPI
  []
 
-[9 <./images/subsystem.png>]) [10] [11] (./tex/y_layer_subsystems.tex
-File: images/subsystem.png Graphic file (type png)
 
-<use images/subsystem.png>
-Package pdftex.def Info: images/subsystem.png used on input line 8.
-(pdftex.def)             Requested size: 281.85587pt x 288.12965pt.
- [12]) [13] (./tex/z_layer_subsystems.tex
-File: images/subsystem.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/mdbch/m/n/10.95 Input 2 - MIPI
+ []
 
-<use images/subsystem.png>
-Package pdftex.def Info: images/subsystem.png used on input line 8.
-(pdftex.def)             Requested size: 281.85587pt x 288.12965pt.
- [14]) [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/mdbch/m/n/10.95 Input 3 - MIPI
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 32--32
+[]\T1/mdbch/m/n/10.95 Output 1 - MIPI
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 32--32
+\T1/mdbch/m/n/10.95 Output 2 - MIPI
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 32--32
+\T1/mdbch/m/n/10.95 Output 3 - MIPI
+ []
+
+<images/DaughterBoard_Camera.jpg, id=59, 503.63156pt x 405.76593pt>
+File: images/DaughterBoard_Camera.jpg Graphic file (type jpg)
+
+<use images/DaughterBoard_Camera.jpg>
+Package pdftex.def Info: images/DaughterBoard_Camera.jpg used on input line 42.
+
+(pdftex.def)             Requested size: 281.85587pt x 227.08496pt.
+ [15 <./images/DaughterBoard_Camera.jpg>]
+Underfull \hbox (badness 3724) in paragraph at lines 62--62
+[]|\T1/mdbch/m/n/10.95 2592 x 1944 Ac-tive Ar-ray Video
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]\T1/mdbch/m/n/10.95 Output 1 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\T1/mdbch/m/n/10.95 RAW8/10/12/14.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\T1/mdbch/m/n/10.95 YUV422,
+ []
+
+<images/DaughterBoard_converter.jpg, id=63, 508.14844pt x 415.5525pt>
+File: images/DaughterBoard_converter.jpg Graphic file (type jpg)
+
+<use images/DaughterBoard_converter.jpg>
+Package pdftex.def Info: images/DaughterBoard_converter.jpg used on input line 
+72.
+(pdftex.def)             Requested size: 281.85587pt x 230.5012pt.
+ [16 <./images/DaughterBoard_converter.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\T1/mdbch/m/n/10.95 Input 1 - MIPI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/mdbch/m/n/10.95 Input 2 - MIPI
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 91--91
+[]\T1/mdbch/m/n/10.95 Output 1 - MIPI
+ []
+
+) [17] (./tex/z_layer_subsystems.tex
+<images/Cypress.jpg, id=70, 586.44093pt x 415.5525pt>
+File: images/Cypress.jpg Graphic file (type jpg)
+ <use images/Cypress.jpg>
+Package pdftex.def Info: images/Cypress.jpg used on input line 5.
+(pdftex.def)             Requested size: 281.85587pt x 199.7229pt.
+
+! Misplaced alignment tab character &.
+<argument> Interface Cypress CX3 &
+                                   Daughter Board
+l.10 ...on{Interface Cypress CX3 & Daughter Board}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<images/Cypress_Interface.jpg, id=71, 543.53062pt x 415.5525pt>
+File: images/Cypress_Interface.jpg Graphic file (type jpg)
+
+<use images/Cypress_Interface.jpg>
+Package pdftex.def Info: images/Cypress_Interface.jpg used on input line 15.
+(pdftex.def)             Requested size: 281.85587pt x 215.49884pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]\T1/mdbch/m/n/10.95 Input 1 - MIPI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/mdbch/m/n/10.95 Input 2 - MIPI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/mdbch/m/n/10.95 Input 3 - MIPI
+ []
+
+[18 <./images/Cypress.jpg>]
+<images/Cypress_Controller.jpg, id=75, 560.8453pt x 442.65375pt>
+File: images/Cypress_Controller.jpg Graphic file (type jpg)
+
+<use images/Cypress_Controller.jpg>
+Package pdftex.def Info: images/Cypress_Controller.jpg used on input line 43.
+(pdftex.def)             Requested size: 281.85587pt x 222.45428pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 62--62
+[]|\T1/mdbch/m/n/10.95 Communication be-tween CX3 Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]\T1/mdbch/m/n/10.95 Input 1 - MIPI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\T1/mdbch/m/n/10.95 Input 2 - MIPI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\T1/mdbch/m/n/10.95 Input 3 - MIPI
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 63--63
+[]|\T1/mdbch/m/n/10.95 Communication be-tween CX3 Con-
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 63--63
+[]\T1/mdbch/m/n/10.95 Output 1 - MIPI
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 63--63
+\T1/mdbch/m/n/10.95 Output 2 - MIPI
+ []
+
+[19 <./images/Cypress_Interface.jpg>]
+<images/Cypress_MIPI.jpg, id=80, 529.22719pt x 438.8897pt>
+File: images/Cypress_MIPI.jpg Graphic file (type jpg)
+
+<use images/Cypress_MIPI.jpg>
+Package pdftex.def Info: images/Cypress_MIPI.jpg used on input line 73.
+(pdftex.def)             Requested size: 281.85587pt x 233.7422pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./images/Cypress_Controller.jpg>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 ...Input 2 - MIPI Data \\ Input 3 - CX3_GPIO}
+                                                   & \pbox{3cm}{Output 1 - S...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 ...Input 2 - MIPI Data \\ Input 3 - CX3_GPIO}
+                                                   & \pbox{3cm}{Output 1 - S...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 ...Input 2 - MIPI Data \\ Input 3 - CX3_GPIO}
+                                                   & \pbox{3cm}{Output 1 - S...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 ...Input 2 - MIPI Data \\ Input 3 - CX3_GPIO}
+                                                   & \pbox{3cm}{Output 1 - S...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]\T1/mdbch/m/n/10.95 Input 1 - MIPI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\T1/mdbch/m/n/10.95 Input 2 - MIPI
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 93--93
+[]\T1/mdbch/m/n/10.95 Output 1 - USB
+ []
+
+) [21 <./images/Cypress_MIPI.jpg>]
 No file architectural_specification.bbl.
 
 AED: lastpage setting LastPage
-(./architectural_specification.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+(./architectural_specification.aux) ) 
 Here is how much of TeX's memory you used:
- 5941 strings out of 495028
- 78660 string characters out of 6181497
- 148791 words of memory out of 5000000
- 8962 multiletter control sequences out of 15000+600000
- 10891 words of font info for 31 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,16n,43p,790b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </h
-ome/cseflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/cs
-eflnsn22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/cseflnsn
-22/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/cseflnsn22/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on architectural_specification.pdf (15 pages, 158112 bytes).
+ 5996 strings out of 493304
+ 82031 string characters out of 6139870
+ 149504 words of memory out of 5000000
+ 9217 multiletter control sequences out of 15000+600000
+ 62096 words of font info for 76 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,17n,43p,790b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/ly1/texnansi.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/chart
+er/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
+
+Output written on architectural_specification.pdf (21 pages, 789548 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
