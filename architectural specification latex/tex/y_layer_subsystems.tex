@@ -1,10 +1,18 @@
+
+\begin{figure}[h!]
+	\centering
+ 	\includegraphics[width=0.60\textwidth]{images/DaughterBoard}
+ \caption{Daughter Board diagram}
+\end{figure}
+
+
 \subsection{Interface Daughter Board & Cypress CX3 Board}
 The BRD is the interface between the Daughter board and Motherboard.
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/subsystem}
- \caption{Example Daughter Board - BRD diagram}
+ 	\includegraphics[width=0.60\textwidth]{images/DaughterBoard_Interface}
+ \caption{Daughter Board & CX3 Interface}
 \end{figure}
 
 \subsubsection{Assumptions}
@@ -17,12 +25,12 @@ The Base BRD Connector is used to interface between the daughter board and the M
 This connector contains 52 pins, but not all of the pins will be used. This connector is directly connected to the camera module connector in order to transfer the data back and forth at a faster rate.  Throughout this connector, multiple pins receive different types of voltages in order to perform different tasks. For complexity issues, the Base BRD Connector will be connected to the bottom layer of the Daughter Board.
 
 \begin {table}[H]
-\caption {Subsystem interfaces}
+\caption {Daughter Board - CX3 interface}
 \begin{center}
     \begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
     \hline
     ID & Description & Inputs & Outputs \\ \hline
-     \#01 & MIPI Controls & \pbox{3cm}{Input 1 - SCL \\ Input 2 - SDA} & \pbox{3cm}{Output 1 - MIPI Data \\ Output 2 - MIPI Clock \\ Output 3 - MIPI Power \\ Output 4 - SDA}  \\ \hline
+     \#03 & MIPI Controls & \pbox{3cm}{Input 1 - SCL \\ Input 2 - SDA} & \pbox{3cm}{Output 1 - MIPI Data \\ Output 2 - MIPI Clock \\ Output 3 - MIPI Power \\ Output 4 - SDA}  \\ \hline
     \end{tabular}
 \end{center}
 \end{table}
@@ -32,8 +40,8 @@ The camera module used for the Eye Tracker system is a 5MP pcDuino camera that w
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/subsystem}
- \caption{Example Daughter Board - Camera Module diagram}
+ 	\includegraphics[width=0.60\textwidth]{images/DaughterBoard_Camera}
+ \caption{Camera Module diagram}
 \end{figure}
 
 \subsubsection{Assumptions}
@@ -47,7 +55,7 @@ This image sensor is capable of capturing 2592x1944 active array of image and vi
 The camera uses the OV5640 image sensor, which is a high quality CMOS image sensor.
 
 \begin {table}[H]
-\caption {Subsystem interfaces}
+\caption {MIPI Camera interface}
 \begin{center}
     \begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
     \hline
@@ -62,8 +70,8 @@ The camera connector is new, and will be replacing the camera connector that was
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/subsystem}
- \caption{Example Daughter Board - Camera Connector diagram}
+ 	\includegraphics[width=0.60\textwidth]{images/DaughterBoard_converter}
+ \caption{Camera Connector diagram}
 \end{figure}
 
 \subsubsection{Assumptions}
@@ -76,12 +84,12 @@ The camera connector is used to connect the camera module to the daughter board 
 In order for the camera module to function properly with the Cypress CX3, it received different voltage inputs in different pins. The datasheet of the OV5640 (Image Sensor) in order to determine which pins will be used on the camera connector and where to connect each pin at the Base BRD Connector. Since this camera will only be used for eye tracking purposes only, the user will not be able to reset the camera since we disabled the reset pin on the camera connector.
 
 \begin {table}[H]
-\caption {Subsystem interfaces}
+\caption {CMOS-MIPI Converter interfaces}
 \begin{center}
     \begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
     \hline
     ID & Description & Inputs & Outputs \\ \hline
-    \#01 & Camera Connector & \pbox{3cm}{Input 1 - MIPI Data \\ Input 2 - MIPI Clock \\ Input 3 - SDA} & \pbox{3cm}{Output 1 - Converted Data \\ Output 2 - Camera Clock Signal \\ Output 3 - SDA}  \\ \hline
+    \#02 & Camera Connector & \pbox{3cm}{Input 1 - MIPI Data \\ Input 2 - MIPI Clock \\ Input 3 - SDA} & \pbox{3cm}{Output 1 - Converted Data \\ Output 2 - Camera Clock Signal \\ Output 3 - SDA}  \\ \hline
     \end{tabular}
 \end{center}
 \end{table}

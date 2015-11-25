@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.25)  25 NOV 2015 05:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.25)  25 NOV 2015 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,6 +666,18 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 3.
 
 ! Misplaced alignment tab character &.
+<argument> ...line {5.1}Interface Daughter Board &
+                                                   Cypress CX3 Board
+l.25 ...ce Daughter Board & Cypress CX3 Board}{14}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
 <argument> ...berline {6.1}Interface Cypress CX3 &
                                                    Daughter Board
 l.38 ...nterface Cypress CX3 & Daughter Board}{18}
@@ -681,7 +693,20 @@ might try typing `S' now just to see what is salvageable.
 \tf@toc=\write5
 \openout5 = `architectural_specification.toc'.
 
- [3] (./architectural_specification.lof)
+ [3] (./architectural_specification.lof
+! Misplaced alignment tab character &.
+<argument> ...e {9}{\ignorespaces Daughter Board &
+                                                   CX3 Interface}
+l.9 ...spaces Daughter Board & CX3 Interface}}{14}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
 \tf@lof=\write6
 \openout6 = `architectural_specification.lof'.
 
@@ -689,8 +714,8 @@ might try typing `S' now just to see what is salvageable.
 \tf@lot=\write7
 \openout7 = `architectural_specification.lot'.
 
-
-[4] (./tex/introduction.tex) [5] (./tex/system_overview.tex
+ [4] (./tex/introduction.tex) [5]
+(./tex/system_overview.tex
 <images/Diagram_WHOLE.jpg, id=21, 984.67876pt x 867.99281pt>
 File: images/Diagram_WHOLE.jpg Graphic file (type jpg)
 
@@ -756,40 +781,50 @@ File: images/DaughterBoard.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/DaughterBoard.jpg used on input line 4.
 (pdftex.def)             Requested size: 281.85587pt x 225.57187pt.
 
+! Misplaced alignment tab character &.
+<argument> Interface Daughter Board &
+                                      Cypress CX3 Board
+l.9 ...terface Daughter Board & Cypress CX3 Board}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 <images/DaughterBoard_Interface.jpg, id=55, 518.6878pt x 421.575pt>
 File: images/DaughterBoard_Interface.jpg Graphic file (type jpg)
 
 <use images/DaughterBoard_Interface.jpg>
 Package pdftex.def Info: images/DaughterBoard_Interface.jpg used on input line 
-13.
+14.
 (pdftex.def)             Requested size: 281.85587pt x 229.09445pt.
- [14 <./images/DaughterBoard.jpg> <./images/DaughterBoard_Interface.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]\T1/mdbch/m/n/10.95 Input 1 - MIPI
- []
 
+! Misplaced alignment tab character &.
+<argument> ...ame : \ignorespaces Daughter Board &
+                                                   CX3 Interface
+l.15  \caption{Daughter Board & CX3 Interface}
+                                              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/mdbch/m/n/10.95 Input 2 - MIPI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/mdbch/m/n/10.95 Input 3 - MIPI
- []
-
-
-Underfull \hbox (badness 2617) in paragraph at lines 32--32
+[14 <./images/DaughterBoard.jpg> <./images/DaughterBoard_Interface.jpg>]
+Underfull \hbox (badness 2617) in paragraph at lines 33--33
 []\T1/mdbch/m/n/10.95 Output 1 - MIPI
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 32--32
+Underfull \hbox (badness 2617) in paragraph at lines 33--33
 \T1/mdbch/m/n/10.95 Output 2 - MIPI
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 32--32
+Underfull \hbox (badness 2617) in paragraph at lines 33--33
 \T1/mdbch/m/n/10.95 Output 3 - MIPI
  []
 
@@ -797,56 +832,37 @@ Underfull \hbox (badness 2617) in paragraph at lines 32--32
 File: images/DaughterBoard_Camera.jpg Graphic file (type jpg)
 
 <use images/DaughterBoard_Camera.jpg>
-Package pdftex.def Info: images/DaughterBoard_Camera.jpg used on input line 42.
+Package pdftex.def Info: images/DaughterBoard_Camera.jpg used on input line 43.
 
 (pdftex.def)             Requested size: 281.85587pt x 227.08496pt.
  [15 <./images/DaughterBoard_Camera.jpg>]
-Underfull \hbox (badness 3724) in paragraph at lines 62--62
-[]|\T1/mdbch/m/n/10.95 2592 x 1944 Ac-tive Ar-ray Video
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]\T1/mdbch/m/n/10.95 Output 1 -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\T1/mdbch/m/n/10.95 RAW8/10/12/14.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\T1/mdbch/m/n/10.95 YUV422,
- []
-
 <images/DaughterBoard_converter.jpg, id=63, 508.14844pt x 415.5525pt>
 File: images/DaughterBoard_converter.jpg Graphic file (type jpg)
 
 <use images/DaughterBoard_converter.jpg>
 Package pdftex.def Info: images/DaughterBoard_converter.jpg used on input line 
-72.
+73.
 (pdftex.def)             Requested size: 281.85587pt x 230.5012pt.
  [16 <./images/DaughterBoard_converter.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []\T1/mdbch/m/n/10.95 Input 1 - MIPI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \T1/mdbch/m/n/10.95 Input 2 - MIPI
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 91--91
-[]\T1/mdbch/m/n/10.95 Output 1 - MIPI
+Underfull \hbox (badness 2707) in paragraph at lines 92--92
+[]\T1/mdbch/m/n/10.95 Output 1 - Con-
  []
 
 ) [17] (./tex/z_layer_subsystems.tex
 <images/Cypress.jpg, id=70, 586.44093pt x 415.5525pt>
 File: images/Cypress.jpg Graphic file (type jpg)
  <use images/Cypress.jpg>
-Package pdftex.def Info: images/Cypress.jpg used on input line 5.
+Package pdftex.def Info: images/Cypress.jpg used on input line 4.
 (pdftex.def)             Requested size: 281.85587pt x 199.7229pt.
 
 ! Misplaced alignment tab character &.
@@ -1013,7 +1029,7 @@ er/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
 
-Output written on architectural_specification.pdf (21 pages, 789548 bytes).
+Output written on architectural_specification.pdf (21 pages, 789581 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
