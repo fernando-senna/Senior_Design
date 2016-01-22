@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/canny_main.cpp
-iostream
--
-stdio.h
--
-time.h
--
-opencv/highgui.h
--
-canny_pupil/PupilTracker.h
-/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.h
-
-/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.cpp
+/home/cseflnsn22/eyelluminati/Senior_Design/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.cpp
 PupilTracker.h
-/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.h
+/home/cseflnsn22/eyelluminati/Senior_Design/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.h
 opencv2/core/core.hpp
 -
 opencv2/imgproc/imgproc.hpp
@@ -30,7 +18,7 @@ opencv/highgui.h
 iostream
 -
 
-/Users/kristoff_Seele/eye_permanent/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.h
+/home/cseflnsn22/eyelluminati/Senior_Design/proeye/pupil_tracker_standalone/canny_pupil/PupilTracker.h
 opencv2/core/core.hpp
 -
 

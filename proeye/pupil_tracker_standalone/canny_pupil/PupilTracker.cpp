@@ -30,13 +30,18 @@ PupilTracker::PupilTracker()
     m_canny_ratio = 2;
     m_canny_aperture = 5;
 
+    // in the pupil tracker code intentisy filter is kept at 17
+    // m_intensity_range = 17;
     m_intensity_range = 11;
+
     m_bin_thresh = 0;
 
     //int m_pupilIntensityOffset = 11;
     m_pupilIntensityOffset = 15;
     m_glintIntensityOffset = 5;
 
+    // min coutour size is set at 60
+    // m_min_contour_size = 60;
     m_min_contour_size = 80;
 
     m_inital_ellipse_fit_threshhold = static_cast<float>(1.8);
@@ -133,7 +138,7 @@ bool PupilTracker::findPupil(const cv::Mat& imageIn)
         cv::imshow("glintMask", glintMask);
     }
 
-    /*
+    // line 141 to line 150 was commented out
     // remove eye lashes using an open morphology operation
     cv::Mat imageEyeLash;
     const cv::Mat openKernel = getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(9, 9));
@@ -142,7 +147,7 @@ bool PupilTracker::findPupil(const cv::Mat& imageIn)
     {
         cv::imshow("eyeLash", imageEyeLash);
     }
-    */
+    
 
     // apply additional blurring
     cv::Mat imageBlurred;
@@ -169,18 +174,23 @@ bool PupilTracker::findPupil(const cv::Mat& imageIn)
     cv::Mat edgesPruned;
     cv::min(edges, darkMask, edgesPruned);
     cv::min(edgesPruned, glintMask, edgesPruned);
+
     if(m_display)
     {
+
         cv::imshow("edgesPruned", edgesPruned);
     }
 
+
+    // calculate the centroid
 
 
     // store the tracking result
     if(success)
     {
-        m_ellipseCentroid = cv::Point2f(240, 240);
-        m_ellipseRectangle = cv::RotatedRect(cv::Point2f(240, 240), cv::Size(10, 20), 0);
+        //m_ellipseCentroid = cv::Point2f(240, 240);
+        m_ellipseCentroid = PupilTracker::getEllipseCentroid(edgesPruned);
+        m_ellipseRectangle = cv::RotatedRect(m_ellipseCentroid, cv::Size(55, 55), 0);
         m_crCenter = cv::Point2f(240, 240);
         m_crRadius = 1.0;
 
@@ -196,12 +206,26 @@ bool PupilTracker::findPupil(const cv::Mat& imageIn)
 /*******************************************************************************************************************//**
 * @brief Returns the pupil centroid
 * @return pupil center as cv::Point2f
+* @author Krishna Bhattarai
+***********************************************************************************************************************/
+
+cv::Point2f PupilTracker::getEllipseCentroid(const cv::Mat &mask) 
+{
+    cv::Moments m = moments(mask, true);
+    cv::Point center(m.m10/m.m00, m.m01/m.m00);
+    return center;
+}
+
+
+/*******************************************************************************************************************//**
+* @brief Returns the pupil centroid
+* @return pupil center as cv::Point2f
 * @author Christopher D. McMurrough
 ***********************************************************************************************************************/
-cv::Point2f PupilTracker::getEllipseCentroid()
-{
-    return m_ellipseCentroid;
-}
+// cv::Point2f PupilTracker::getEllipseCentroid()
+// {
+//     return m_ellipseCentroid;
+// }
 
 /*******************************************************************************************************************//**
 * @brief Returns the pupil ellipse rectangle

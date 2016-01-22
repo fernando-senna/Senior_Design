@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/swirski_lib.dir/swirski_pupil/PupilTracker.cpp.o"
   "CMakeFiles/swirski_lib.dir/swirski_pupil/cvx.cpp.o"
   "CMakeFiles/swirski_lib.dir/swirski_pupil/utils.cpp.o"
@@ -7,6 +7,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/swirski_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/swirski_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

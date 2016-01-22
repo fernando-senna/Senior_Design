@@ -72,7 +72,7 @@ public:
     PupilTracker();
 
     // accessors
-    cv::Point2f getEllipseCentroid();
+    cv::Point2f getEllipseCentroid(const cv::Mat &test);
     cv::RotatedRect getEllipseRectangle();
     
     // utility functions

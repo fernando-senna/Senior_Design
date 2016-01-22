@@ -181,7 +181,7 @@ int main(int argc, char** argv)
         // stop the timer and print the elapsed time
         frameEndTicks = clock();
         totalTime = ((float)(frameEndTicks - frameStartTicks)) / CLOCKS_PER_SEC;
-        std::printf("Processing time (pupil, total) (result x,y): %.4f %.4f - %.2f %.2f\n", processTime, totalTime, tracker.getEllipseCentroid().x, tracker.getEllipseCentroid().y);
+        //std::printf("Processing time (pupil, total) (result x,y): %.4f %.4f - %.2f %.2f\n", processTime, totalTime, tracker.getEllipseCentroid().x, tracker.getEllipseCentroid().y);
     }
 
     // release the video source before exiting
