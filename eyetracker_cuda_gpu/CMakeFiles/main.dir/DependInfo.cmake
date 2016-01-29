@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.cpp" "/home/ubuntu/Desktop/eyetracker_cuda_gpu/CMakeFiles/main.dir/PupilTracker.cpp.o"
-  "/home/ubuntu/Desktop/eyetracker_cuda_gpu/canny_main.cpp" "/home/ubuntu/Desktop/eyetracker_cuda_gpu/CMakeFiles/main.dir/canny_main.cpp.o"
+  "/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.cpp" "/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/CMakeFiles/main.dir/PupilTracker.cpp.o"
+  "/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/canny_main.cpp" "/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/CMakeFiles/main.dir/canny_main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

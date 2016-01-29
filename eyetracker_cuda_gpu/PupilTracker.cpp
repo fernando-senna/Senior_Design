@@ -8,11 +8,17 @@
 ***********************************************************************************************************************/
 
 #include "PupilTracker.h"
-#include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv/highgui.h>
 #include <math.h>
 #include <iostream>
+#include <string>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/gpu/gpu.hpp>
+#include <stdio.h>
+
+
 
 /*******************************************************************************************************************//**
 * @brief Constructor to create a PupilTracker
@@ -67,15 +73,29 @@ PupilTracker::PupilTracker()
 * @return true if the a pupil was located in the image
 * @author Christopher D. McMurrough
 ***********************************************************************************************************************/
-bool PupilTracker::findPupil(const cv::Mat& imageIn)
+bool PupilTracker::findPupil(const cv::gpu::GpuMat &imageIn)
 {
-    return true;
+
     bool success = false;
 
-    // get the normalized grayscale image
+    // Convert from bgr to grey
+    cv::gpu::GpuMat imageGray, imageNormalized;
+    /* gpu::cvtColor(const GpuMat& src, GpuMat& dst, int code, int dcn=0, Stream& stream=Stream::Null())*/
+    cv::gpu::cvtColor(imageIn, imageGray, cv::COLOR_BGR2GRAY);
+
+    // normalize the grey scale image
     const int rangeMin = 0;
     const int rangeMax = 255;
-    cv::Mat imageGray;
+    //gpu::normalize(const GpuMat& src, GpuMat& dst, double alpha=1, double beta=0, int norm_type=NORM_L2, int dtype=-1, const GpuMat& mask=GpuMat())
+    cv::gpu::normalize(imageGray, imageNormalized, rangeMin, rangeMax, cv::NORM_MINMAX, CV_8UC1);
+
+
+    // Calculate the histogram
+
+    return true;
+
+
+    /**
     cv::cvtColor(imageIn, imageGray, cv::COLOR_BGR2GRAY);
     cv::normalize(imageGray, imageGray, rangeMin, rangeMax, cv::NORM_MINMAX, CV_8UC1);
     if(m_display)
@@ -205,7 +225,7 @@ bool PupilTracker::findPupil(const cv::Mat& imageIn)
 
     m_crCenter = cv::Point2f(240, 240);
     m_crRadius = 1.0;
-
+*/
     return true;
 
     // store the tracking result

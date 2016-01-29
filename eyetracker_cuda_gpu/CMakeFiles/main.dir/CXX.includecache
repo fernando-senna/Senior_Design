@@ -6,25 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.cpp
+/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.cpp
 PupilTracker.h
-/home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.h
-opencv2/core/core.hpp
--
+/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.h
 opencv2/imgproc/imgproc.hpp
 -
 opencv/highgui.h
 -
 math.h
 -
-iostream
--
-
-/home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.h
-opencv2/core/core.hpp
--
-
-/home/ubuntu/Desktop/eyetracker_cuda_gpu/canny_main.cpp
 iostream
 -
 string
@@ -37,10 +27,8 @@ opencv2/gpu/gpu.hpp
 -
 stdio.h
 -
-time.h
+
+/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.h
+opencv2/core/core.hpp
 -
-opencv/highgui.h
--
-PupilTracker.h
-/home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.h
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/eyetracker_cuda_gpu
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Desktop/eyetracker_cuda_gpu
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/PupilTracker.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/PupilTracker.cpp.o: PupilTracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Desktop/eyetracker_cuda_gpu/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/PupilTracker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/PupilTracker.cpp.o -c /home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/PupilTracker.cpp.o -c /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.cpp
 
 CMakeFiles/main.dir/PupilTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/PupilTracker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.cpp > CMakeFiles/main.dir/PupilTracker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.cpp > CMakeFiles/main.dir/PupilTracker.cpp.i
 
 CMakeFiles/main.dir/PupilTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/PupilTracker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/eyetracker_cuda_gpu/PupilTracker.cpp -o CMakeFiles/main.dir/PupilTracker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.cpp -o CMakeFiles/main.dir/PupilTracker.cpp.s
 
 CMakeFiles/main.dir/PupilTracker.cpp.o.requires:
 .PHONY : CMakeFiles/main.dir/PupilTracker.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/main.dir/PupilTracker.cpp.o.provides.build: CMakeFiles/main.dir/Pupil
 
 CMakeFiles/main.dir/canny_main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/canny_main.cpp.o: canny_main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Desktop/eyetracker_cuda_gpu/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/canny_main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/canny_main.cpp.o -c /home/ubuntu/Desktop/eyetracker_cuda_gpu/canny_main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/canny_main.cpp.o -c /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/canny_main.cpp
 
 CMakeFiles/main.dir/canny_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/canny_main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/eyetracker_cuda_gpu/canny_main.cpp > CMakeFiles/main.dir/canny_main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/canny_main.cpp > CMakeFiles/main.dir/canny_main.cpp.i
 
 CMakeFiles/main.dir/canny_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/canny_main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/eyetracker_cuda_gpu/canny_main.cpp -o CMakeFiles/main.dir/canny_main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/canny_main.cpp -o CMakeFiles/main.dir/canny_main.cpp.s
 
 CMakeFiles/main.dir/canny_main.cpp.o.requires:
 .PHONY : CMakeFiles/main.dir/canny_main.cpp.o.requires
@@ -160,6 +160,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/ubuntu/Desktop/eyetracker_cuda_gpu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/eyetracker_cuda_gpu /home/ubuntu/Desktop/eyetracker_cuda_gpu /home/ubuntu/Desktop/eyetracker_cuda_gpu /home/ubuntu/Desktop/eyetracker_cuda_gpu /home/ubuntu/Desktop/eyetracker_cuda_gpu/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu /home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

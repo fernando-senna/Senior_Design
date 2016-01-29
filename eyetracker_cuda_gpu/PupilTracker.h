@@ -74,9 +74,10 @@ public:
     // accessors
     cv::RotatedRect getEllipseCentroid(const cv::Mat &test);
     cv::RotatedRect getEllipseRectangle();
-    
+
     // utility functions
-    bool findPupil(const cv::Mat& imageIn);
+    //bool findPupil(const cv::Mat& imageIn);
+    bool findPupil(const cv::gpu::GpuMat &imageIn);
     void setDisplay(bool display);
 };
 

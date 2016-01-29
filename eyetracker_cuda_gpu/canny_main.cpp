@@ -127,8 +127,13 @@ int main(int argc, char** argv)
             cv::gpu::GpuMat my_cuda_frame;
             my_cuda_frame.upload(eyeImage);
             //processStartTicks = clock();
-            trackingSuccess = true;
-            //trackingSuccess = tracker.findPupil(eyeImage);
+            //trackingSuccess = true;
+            trackingSuccess = tracker.findPupil(my_cuda_frame);
+            if (trackingSuccess)
+            {
+                std::cout <<"Tracking was successful!"<< std::endl;
+            }
+
             //processEndTicks = clock();
             //processTime = ((float)(processEndTicks - processStartTicks)) / CLOCKS_PER_SEC;
 
