@@ -1,0 +1,84 @@
+#include <iostream>
+#include "opencv2/opencv.hpp"
+#include "opencv2/gpu/gpu.hpp"
+
+#define NUM_COMNMAND_LINE_ARGUMENTS 2
+#define CAMERA_FRAME_WIDTH 640
+#define CAMERA_FRAME_HEIGHT 360
+#define CAMERA_FORMAT CV_8UC1
+#define CAMERA_FPS 30
+#define CAMERA_BRIGHTNESS 128
+#define CAMERA_CONTRAST 10
+#define CAMERA_SATURATION 0
+#define CAMERA_HUE 0
+#define CAMERA_GAIN 0
+#define CAMERA_EXPOSURE -6
+#define CAMERA_CONVERT_RGB false
+
+// color constants
+CvScalar COLOR_WHITE = CV_RGB(255, 255, 255);
+CvScalar COLOR_RED = CV_RGB(255, 0, 0);
+CvScalar COLOR_GREEN = CV_RGB(0, 255, 0);
+CvScalar COLOR_BLUE = CV_RGB(0, 0, 255);
+CvScalar COLOR_YELLOW = CV_RGB(255, 255, 0);
+CvScalar COLOR_MAGENTA = CV_RGB(255, 0, 255);
+
+
+int main (int argc, char** argv)
+{
+// validate and parse the command line arguments
+
+    int cameraIndex = 0;
+    bool displayMode = true;
+    bool flipDisplay = false;
+    if(argc != NUM_COMNMAND_LINE_ARGUMENTS + 1)
+    {
+        std::cout <<"USAGE: <camera_index> <display_mode>\n"<<std::endl;
+        std::cout <<"Running with default parameters... \n"<<std::endl;
+    }
+    else
+    {
+        cameraIndex = atoi(argv[1]);
+        displayMode = atoi(argv[2]) > 0;
+        flipDisplay = atoi(argv[2]) == 2;
+    }
+	cv::namedWindow("GPU VIDEO", cv::WINDOW_NORMAL);
+	
+	
+	cv::Gpu::GpuMat video_frames;
+    	cv::VideoCapture captured("pupil_test.mp4");
+	if (!captured.isOpened())
+	{
+		std::cout<<"error capturing video"<<std::endl;
+		return 0;
+	}
+	
+	bool run = true;
+	while (run)
+		{
+		if(captured.read(video_frames))
+			{
+			cv::Gpu::GpuMat display_image(video_frames);
+			cv::imshow("display_image", display_image);
+			}
+		}
+/**
+    try
+    {
+        cv::Mat src_host = cv::imread("index.jpeg", CV_LOAD_IMAGE_GRAYSCALE);
+        cv::gpu::GpuMat dst, src;
+        src.upload(src_host);
+
+        cv::gpu::threshold(src, dst, 128.0, 255.0, CV_THRESH_BINARY);
+
+        cv::Mat result_host(dst);
+        cv::imshow("Result", result_host);
+        cv::waitKey();
+    }
+    catch(const cv::Exception& ex)
+    {
+        std::cout << "Error: " << ex.what() << std::endl;
+    }
+*/
+    return 0;
+}
