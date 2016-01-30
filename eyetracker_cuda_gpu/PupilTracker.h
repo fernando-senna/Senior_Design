@@ -78,6 +78,7 @@ public:
     // utility functions
     //bool findPupil(const cv::Mat& imageIn);
     bool findPupil(const cv::gpu::GpuMat &imageIn);
+    void calculate_spike_indices_and_max_intenesity(cv::gpu::GpuMat &histogram, int& amount_intensity_values,int& lowest_spike_index, int& highest_spike_index, float& max_intensity);
     void setDisplay(bool display);
 };
 

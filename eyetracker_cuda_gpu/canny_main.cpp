@@ -4,20 +4,22 @@
  *
  * USB implementation of the canny pupil tracker by pupil-labs
  * https://github.com/pupil-labs/pupil/
- *
+ * @author Krishna Bhattarai
  * @author Christopher D. McMurrough
  **********************************************************************************************************************/
 
-#include <iostream>
-#include <string>
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/gpu/gpu.hpp>
-#include <stdio.h>
-#include <time.h>
-#include <opencv/highgui.h>
+#include <iostream>                             // for standard I/O
+#include <stdio.h>                              // for standard I/O
+#include <string>                               // for manipulating strings
+#include <opencv2/core/core.hpp>                // Basic OpenCV structure (cv::Mat, Scalar)
+#include <opencv2/highgui/highgui.hpp>          // OpenCV window I/O
+#include <opencv/highgui.h>                     // OpenCV window I/O
+#include <opencv2/gpu/gpu.hpp>                  // Gpu Structures (gpu::GpuMat)
+#include <time.h>                               // for timing things if needed
+#include <opencv2/imgproc/imgproc.hpp>          // for basic image processing stuff like Gaussian Blur
 
-#include "PupilTracker.h"
+
+#include "PupilTracker.h"                       // This is the lcoal pupil tracker class
 
 // configuration parameters
 #define NUM_COMNMAND_LINE_ARGUMENTS 2

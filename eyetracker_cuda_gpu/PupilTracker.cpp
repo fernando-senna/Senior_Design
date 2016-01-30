@@ -3,21 +3,21 @@
 * @brief Implementation for the PupilTracker class
 *
 * This class encapsulates the canny edge based pupil tracking algorithm
-*
+* @author Krishna Bhattarai
 * @author Christopher D. McMurrough
 ***********************************************************************************************************************/
 
-#include "PupilTracker.h"
-#include <opencv2/imgproc/imgproc.hpp>
-#include <opencv/highgui.h>
-#include <math.h>
-#include <iostream>
-#include <string>
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/gpu/gpu.hpp>
-#include <stdio.h>
-
+#include <math.h>                               // for standard math operations
+#include <iostream>                             // for standard I/O
+#include <stdio.h>                              // for standard I/O
+#include <string>                               // for manipulating strings
+#include <opencv2/core/core.hpp>                // Basic OpenCV structure (cv::Mat, Scalar)
+#include <opencv2/highgui/highgui.hpp>          // OpenCV window I/O
+#include <opencv/highgui.h>                     // OpenCV window I/O
+#include <opencv2/gpu/gpu.hpp>                  // Gpu Structures (gpu::GpuMat)
+#include <time.h>                               // for timing things if needed
+#include <opencv2/imgproc/imgproc.hpp>          // for basic image processing stuff like Gaussian Blur
+#include "PupilTracker.h"                       // This is the lcoal pupil tracker class
 
 
 /*******************************************************************************************************************//**
@@ -29,10 +29,10 @@ PupilTracker::PupilTracker()
     // initialize tracking processing variables
     m_courseDetection = false;
     m_coarse_filter_min = 100;
-    m_coarse_filter_max = 400;
+    m_coarse_filter_max = 700;
 
     m_blur = 1;
-    m_canny_thresh = 159;
+    m_canny_thresh = 300;
     m_canny_ratio = 2;
     m_canny_aperture = 5;
 
@@ -90,48 +90,57 @@ bool PupilTracker::findPupil(const cv::gpu::GpuMat &imageIn)
     cv::gpu::normalize(imageGray, imageNormalized, rangeMin, rangeMax, cv::NORM_MINMAX, CV_8UC1);
 
 
-    // Calculate the histogram
+    // Calculate the intensity histogram
+//    cv::gpu::GpuMat histogram;
+//    int histSize = 256;
+//    // set the ranges that go from 0 to 255
+//    float range[] = {0, 256}; // upper boundary is exclusive
+//    const float *histRange = {range};
+
+    /*void gpu::calcHist(const GpuMat& src, GpuMat& hist, Stream& stream=Stream::Null()) */
+    /*void gpu::calcHist(const GpuMat& src, GpuMat& hist, GpuMat& buf, Stream& stream=Stream::Null()) */
+    //cv::gpu::calcHist(&imageNormalized, &histogram,  );
+    // ***************** Stuck at this point as I dont know what Stream is for **************
+
+    // At this point I am going to assume that the histogram was calculated and I have the lowest and highest spike indices
+    // A good idea would be to run the cpu code and print and see what these values would be
+    // For now lets just go with default
+    int lowest_spike_index = 255;
+    int highest_spike_index = 0;
+    float max_intensity = 0;
+
+    // Create dark and spectral glint masks
+    //cv::gpu::GpuMat binary_image, spectral_mask, kernel;
+//    cv::Mat cpu_normal, cpu_spectral;
+//    imageNormalized.upload(cpu_normal);
+    //cv::inRange(cpu_normal, cv::InputArray(255), cv::InputArray(lowest_spike_index + m_pupilIntensityOffset), cpu_spectral);
+
+    // Lets try to get the canny threshold
+    cv::gpu::GpuMat edges;
+    cv::gpu::Canny(imageNormalized, edges, m_canny_thresh, m_canny_thresh * m_canny_ratio, m_canny_aperture);
+     if(m_display)
+    {
+        cv::Mat cpu_edges;
+        edges.download(cpu_edges);
+        cv::imshow("edges", cpu_edges);
+    }
 
     return true;
 
-
     /**
-    cv::cvtColor(imageIn, imageGray, cv::COLOR_BGR2GRAY);
-    cv::normalize(imageGray, imageGray, rangeMin, rangeMax, cv::NORM_MINMAX, CV_8UC1);
-    if(m_display)
-    {
-        cv::imshow("imageGray", imageGray);
-    }
-
     // compute the intensity histogram
     cv::Mat hist;
     int channels[] = {0};
     int histSize[] = {rangeMax - rangeMin + 1};
     float range[] = {static_cast<float>(rangeMin), static_cast<float>(rangeMax)};
     const float* ranges = {range};
-    cv::calcHist(&imageGray, 1, channels, cv::Mat(), hist, 1, histSize, &ranges, true, false);
 
     // find histogram spikes
     const int minSpikeSize = 40;
     int lowestSpike = rangeMax;
     int highestSpike = rangeMin;
     int numSpikes = 0;
-    for(int i = 0; i < histSize[0]; i++)
-    {
-        // check to see if we have a spike
-        if(hist.at<uchar>(0, i) >= minSpikeSize)
-        {
-            numSpikes++;
-            if(i < lowestSpike)
-            {
-                lowestSpike = i;
-            }
-            if(i > highestSpike)
-            {
-                highestSpike = i;
-            }
-        }
-    }
+
     if(numSpikes < 2)
     {
         // not enough spikes, assign default values
@@ -367,6 +376,33 @@ void PupilTracker::setDisplay(bool display)
 }
 
 
+// This method calculates the highest and lowest intensities
+void PupilTracker::calculate_spike_indices_and_max_intenesity(cv::gpu::GpuMat &histogram, int &amount_intensity_values,
+  int& lowest_spike_index, int& highest_spike_index, float& max_intensity)
+    {
+        lowest_spike_index = 255;
+        highest_spike_index = 0;
+        max_intensity = 0;
+        bool found_one = false;
+
+        for (int i = 0; i < histogram.rows; i++) {
+            //const float intensity  = histogram.at<float>(i, 0);
+            // Since I cant use the term at i will chose 0.0f as a constant float value
+            const float intensity = 0.0f;
+            //  every intensity seen in more than amount_intensity_values pixels
+            if (intensity > amount_intensity_values) {
+                max_intensity = std::max(intensity, max_intensity);
+                lowest_spike_index = std::min(lowest_spike_index, i);
+                highest_spike_index = std::max(highest_spike_index, i);
+                found_one = true;
+            }
+        }
+
+        if (!found_one) {
+            lowest_spike_index = 200;
+            highest_spike_index = 255;
+        }
+    }
 
 //cv::Vec2f singleeyefitter::cvx::majorAxis(const cv::RotatedRect& ellipse)
 //{
