@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq libswirski_lib.a  CMakeFiles/swirski_lib.dir/swirski_pupil/PupilTracker.cpp.o CMakeFiles/swirski_lib.dir/swirski_pupil/cvx.cpp.o CMakeFiles/swirski_lib.dir/swirski_pupil/utils.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libswirski_lib.a
+/usr/bin/ar cr libswirski_lib.a  CMakeFiles/swirski_lib.dir/swirski_pupil/PupilTracker.cpp.o CMakeFiles/swirski_lib.dir/swirski_pupil/cvx.cpp.o CMakeFiles/swirski_lib.dir/swirski_pupil/utils.cpp.o
+/usr/bin/ranlib libswirski_lib.a

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.cpp
+math.h
+-
+iostream
+-
+stdio.h
+-
+string
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv/highgui.h
+-
+opencv2/gpu/gpu.hpp
+-
+time.h
+-
+opencv2/imgproc/imgproc.hpp
+-
+PupilTracker.h
+/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.h
+
+/home/ubuntu/Desktop/Senior_Design/eyetracker_cuda_gpu/PupilTracker.h
+opencv2/core/core.hpp
+-
+
