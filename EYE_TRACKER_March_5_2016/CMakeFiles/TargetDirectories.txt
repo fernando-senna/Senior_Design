@@ -1,0 +1,3 @@
+/Users/fernando/Github/Senior_Design/EYE_TRACKER_March_5_2016/CMakeFiles/edit_cache.dir
+/Users/fernando/Github/Senior_Design/EYE_TRACKER_March_5_2016/CMakeFiles/rebuild_cache.dir
+/Users/fernando/Github/Senior_Design/EYE_TRACKER_March_5_2016/CMakeFiles/canny_tracker.dir

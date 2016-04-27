@@ -1,0 +1,1 @@
+/home/srikrishna/Desktop/Senior_Design/added_ellipse_tests_march5_saturday/CMakeFiles/canny_tracker.dir
