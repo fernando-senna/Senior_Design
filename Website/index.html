@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>Senior Design - Eye Tracker</title>
+    </head>
+    <style>
+        table, th, td 
+        {
+            border: 1px solid black;    
+        }
+    </style>
+    <body>
+        <h1 id="top" align="center">OptiFind: An Eye Tracker For Gaze-Based Interaction</h1>
+        <p style="text-align:center;"><img src="images/logo.jpeg" align="middle">
+        <br><br>
+        <ul>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#architecture">System Architecture</a></li>
+            <li><a href="#design">Design Detail</a></li>
+            <li><a href="#block">System Block Diagram</a></li>
+            <li><a href="#picture">Pictures</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#parts">Parts List</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+        <h2 id="vision">Vision</h2>
+            <p>The purpose of this project is to create an eye tracker system to benefit
+               the lives of those living with disabilities. In today's market eye trackers
+               are very expensive, they are not very accuarte, and they can be uncomfortable
+               to wear.</p>
+        <h2 id="mission">Mission</h2>
+            <p>Our primary goal is to re-optimize existing eye tracker algorithms and 
+               implement them in low cost and high performance MIPI cameras. The eye tracker
+               will also be made to look modern and sleek, while being comfortable to wear
+               for long periods of time. The eye tracker system can be made within our $800 USD
+               budget and our future include commercially packaging it for commercialization.</p>
+        <h2 id="architecture">Architecture</h2>
+            <p>The image below gives a high level description of OptiFind by breaking it down into 
+               several layers. The entire eye tracker system consists of 3 separate layers: Software
+               Layer, Jetson TK1, and Raspberry Pi 3. A brief description of each subsystem will be
+               provided in the following section.</p>
+        <h2 id="design">Design Details</h2>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Software</h3>
+            <ul>
+                <li>Ransac algorithm used to accurately track the eye's pupil.</li>
+                <li>OpenCV used to analyze the image captured by the Infrared MIPI Camera</li>
+                <li>Other usage of OpenCV is to display the software accurately tracking the eye's pupil.</li>
+                <li>Capture live video stream from the Raspberry Pi 3.</li>
+            </ul>
+            <p style="text-align:center;"><img src="images/software.png">
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;NVIDIA Jetson TK-1 Embedded Development Board</h3>
+            <ul>
+                <li>Development board used to implement the eye tracker algorithm.</li>
+                <li>Uses OpenCV4Tegra, CUDA 6.5 Toolkit, Cmake, and a g++ compiler.</li>
+                <li>Connects via Ethernet with the Raspberry Pi 3.</li>
+                <li>Infrared LEDs are powered using the Jetson TK-1 GPIO.</li>
+            </ul>
+            <p style="text-align:center;"><img src="images/jetson-tk1.jpg"><br>
+        
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Raspberry Pi 3</h3>
+            <ul>
+                <li>Single-board computer used to stream video via Ethernet to the Jetson TK-1.</li>
+                <li>An infrared MIPI Camera is connected to the Raspberry Pi 3 with an HDMI Extension Board.</li>
+                <li>A static IP has been set on the device for easier streaming connectivity.</li>
+                <li>The Raspberry Pi 3 is powered by the Jetson TK-1.</li>
+            </ul>
+            <p style="text-align:center;"><img src="images/raspberry-pi-3.jpg" height="400" width="600">
+        <h2 id="block">System Block Diagram</h2>
+             <p style="text-align:center;"><img src="images/block-diagram.png" height="400" width="800">   
+        <h2 id="picture">Pictures</h2>
+            <p style="text-align:center;">
+        <h2 id="video">Video</h2>
+            <p style="text-align:center;">
+        <h2 id="parts">Parts List</h2>
+            <table border="1" width="50%" align="center">
+                <caption>Eye Tracker System</caption>
+                <tr>
+                    <th>Quantity</th><th>Description</th><th>Seller</th><th>Price</th>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://store.nvidia.com/store?Action=DisplayPage&Env=BASE&Locale=en_US&SiteID=nvidia&id=QuickBuyCartPage" target="_blank">Jetson TK-1</a></td><td align="center">NVIDIA</td><td align="center">$192.00</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.mcmelectronics.com/product/83-17300?utm_campaign=e14&utm_source=e14community&utm_medium=forum&utm_term=83-17300&COM=superwidget-link_RaspberryPi+CMPNULL" taget="_blank">Raspberry Pi 3</a></td><td align="center">MCM Electronics</td><td align="center">$35.00</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.amazon.com/Arducam-Megapixels-Sensor-Camera-Raspberry/dp/B012QRGUCQ/ref=sr_1_sc_1?ie=UTF8&qid=1461545922&sr=8-1-spell&keywords=raspberry+py+spu+cam" target="_blank">MIPI Camera</a></td><td align="center">Amazon</td><td align="center">$32.99</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://www.tindie.com/products/freto/pi-camera-hdmi-cable-extension/" target="_blank">Pi Camera HDMI Cable Extension</a></td><td align="center">Tindie</td><td align="center">$14.95</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://frys.com/product/8396927?site=sr:SEARCH:MAIN_RSLT_PG" target="_blank">Flat HDMI Cable</a></td><td align="center">Frys</td><td align="center">$12.99</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.bhphotovideo.com/c/product/292664-REG/LEE_Filters_87CP3_3_x_3_Infrared.html" target="_blank">Infrared Pass Filter</a></td><td align="center">B &amp; H Photo Video</td><td align="center">$16.00</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.amazon.com/RangeMax-Wireless-WNR1000-100NAS-G54-N150/dp/B001UI4RTG/ref=sr_1_4?s=pc&ie=UTF8&qid=1461598553&sr=1-4&keywords=router" target="_blank">NETGEAR MaxRange Wireless Router</a></td><td align="center">Amazon</td><td align="center">$21.99</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.amazon.com/Mediabridge-Cat5e-Ethernet-Patch-Cable/dp/B003O973OA/ref=sr_1_9?s=pc&ie=UTF8&qid=1461548254&sr=1-9&keywords=ethernet+cable" target="_blank">Mediabridge Cat5e Ethernet </a></td><td align="center">Amazon</td><td align="center">$5.89</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.amazon.com/Sugru-Moldable-Glue-SBLK3-Black/dp/B01BFE0KNQ/ref=sr_1_3?ie=UTF8&qid=1461548534&sr=8-3&keywords=sugru" target="_blank">Sugru Moldable Glue</a></td><td align="center">Amazon</td><td align="center">$12.50</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://www.amazon.com/Bolle-Goggles-Shiny-Black-Clear/dp/B0038ZYRGC/" target="_blank">Bolle Mojo Snow Goggles</a></td><td align="center">Amazon</td><td align="center">$16.46</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td><td align="center"><a href="http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySFH-4350">Infrared LED</a></td><td align="center">Mouser</td><td align="center">$1.02 each</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://www.digikey.com/product-detail/en/samtec-inc/TCSD-25-D-06.00-01-N/SAM8549-ND/1106687" target="_blank">Ribbon Cable</a></td><td align="center">DigiKey</td><td align="center">$14.95</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT220R/CF14JT220RCT-ND/1830334" target="_blank">220 Ohm Resistor</a></td><td align="center">DigiKey</td><td align="center">$0.20</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td><td align="center"><a href="https://www.digikey.com/product-detail/en/3m/151250-8422-RB/3M1450-ND/949836" target="_blank">50 Pin 2mm Connector</a></td><td align="center">DigiKey</td><td align="center">$4.75 each</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://www.alliedelec.com/twin-industries-8000-2mm-3u/70012443/" target="_blank">2mm x 2mm Prototype Board</a></td><td align="center">Allied Electronics</td><td align="center">$23.63</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://www.radioshack.com/products/ul-hookup-wire-22awg-2?variant=5717682885" target="_blank">22 AWG Wire</a></td><td align="center">RadioShack</td><td align="center">$9.99</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="https://www.samtec.com/products/sqw" target="_blank">2mm Connector (SQW-125-01-F-D)</a></td><td align="center">Samtec</td><td align="center">Free Sample</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center"><a href="http://fablab.uta.edu/equipment" target="_blank">3D Printed Camera Mount</a></td><td align="center">UTA FabLab</td><td align="center">$0.50</td>
+                </tr>
+            </table>
+            <br><br>
+            <table border="1" width="60%" align="center">
+                <caption>MIPI Camera PCB Parts List</caption>
+                <tr>
+                    <th>Quantity</th><th>Description</th><th>Part Number</th><th>Seller</th><th>Price</th>
+                </tr>
+                <tr>
+                    <td align="center">3</td><td align="center">10uF Capacitor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Murata/ZRB18AD71A106KE01L/?qs=%2fha2pyFadujFGsv1XZ8rp5lFDIFAJ2YKrXpHl71%252bo3wMj1aqdQTHBbowBXK7akIe" target="_blank">81-ZRB18AD71A106KE1L</a></td><td align="center">Mouser</td><td align="center">$0.41 each</td>
+                </tr>
+                <tr>
+                    <td align="center">4</td><td align="center">0.1uF Capacitor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Kemet/C0603C104K8RACTU/?qs=sGAEpiMZZMs0AnBnWHyRQFqPnX0Olvco6bHHdFzzrqs%3d" target="_blank">80-C0603C104K8R</a></td><td align="center">Mouser</td><td align="center">$0.10 each</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">1uF Capacitor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Kemet/C0603C105K8PACTU/?qs=sGAEpiMZZMs0AnBnWHyRQFqPnX0OlvcoH0hWHQB3lFc%3d" target="_blank">80-C0603C105K8P</a></td><td align="center">Mouser</td><td align="center">$0.10</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">22 Ohm Resistor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060322R0JNEA/?qs=sGAEpiMZZMu61qfTUdNhGyptJL5EcUtRoRaz8hxoZjI%3d" target="_blank">71-CRCW0603J-22-E3</a></td><td align="center">Mouser</td><td align="center">$0.10</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td><td align="center">2.2k Ohm Resistor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06032K20FKEA/?qs=sGAEpiMZZMu61qfTUdNhG3XwnH6YDjgjRFBOtarF%2fNo%3d" target="_blank">71-CRCW0603-2.2K-E3</a></td><td align="center">Mouser</td><td align="center">$0.10 each</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">10k Ohm Resistor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEA/?qs=sGAEpiMZZMu61qfTUdNhGyptJL5EcUtREGTsEKG7Lak%3d" target="_blank">71-CRCW0603-10K-E3</a></td><td align="center">Mouser</td><td align="center">$0.10</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">82k Ohm Resistor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060382K0FKEA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRHIFPszeIT%2fg%3d" target="_blank">71-CRCW0603-82K-E3</a></td><td align="center">Mouser</td><td align="center">$0.10</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">100k Ohm Resistor</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEA/?qs=sGAEpiMZZMu61qfTUdNhG3XwnH6YDjgjVclO%2fX%252bjaWo%3d" target="_blank">71-CRCW0603-100K-E3</a></td><td align="center">Mouser</td><td align="center">$0.10</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">Schottky Diode 30V 200mA</td><td align="center"><a href="http://www.digikey.com/product-detail/en/on-semiconductor/BAT54XV2T1G/BAT54XV2T1GOSCT-ND/917815" target="_blank">BAT54XV2T1GOSCT-ND</a></td><td align="center">Digi-Key</td><td align="center">$0.31</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">MIPI Camera Connector</td><td align="center"><a href="http://www.digikey.com/product-search/en?keywords=255-2528-1-ND" target="_blank">255-2528-1-ND</a></td><td align="center">Digi-Key</td><td align="center">$2.29</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">IC LDO 3.3V 0.5A </td><td align="center"><a href="http://www.digikey.com/product-search/en?keywords=296-13424-1-ND" target="_blank">296-13424-1-ND</a></td><td align="center">Digi-Key</td><td align="center">$0.58</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">600mA CMOS LDO</td><td align="center"><a href="http://www.mouser.com/ProductDetail/Diodes-Incorporated/AP2112K-33TRG1/?qs=%2fha2pyFadujb8NgUkgmWKvtmeaZwDTZhty8llsISkV45aJZtAukxRuRrVZs%2fr9et" target="_blank">621-AP2112K-3.3TRG1</a></td><td align="center">Mouser</td><td align="center">$0.46</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">pcDuino MIPI Camera</td><td align="center"><a href="https://www.sparkfun.com/products/13249" target="_blank">SEN-13249</a></td><td align="center">SparkFun Electronics</td><td align="center">$15.95</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td><td align="center">Jetson TK-1 75 Pin GPIO Connector</td><td align="center"><a href="https://www.samtec.com/products/sqw" target="_blank">SQW-125-01-F-T</a></td><td align="center">Samtec</td><td align="center">Free Samples</td>
+                </tr>
+            </table>
+        <h2 id ="team">Team</h2>
+            <ul>
+                <li>Zachery Allen - Computer Science</li>
+                <li>Krishna Bhattarai - Computer Science</li>
+                <li>Fernando Do Nascimento - Computer Engineering</li>
+                <li>James Stone - Computer Science</li>
+                <li>Joseph Trinh - Computer Science</li>
+            </ul>
+        <p><a href="#top">Top of page</a></p>
+    </body>
+</html>
